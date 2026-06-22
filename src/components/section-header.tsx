@@ -1,0 +1,37 @@
+import { cn } from "@/lib/utils";
+
+type SectionHeaderProps = {
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  titleAs?: "h1" | "h2";
+  className?: string;
+};
+
+export function SectionHeader({
+  eyebrow,
+  title,
+  intro,
+  titleAs = "h2",
+  className,
+}: SectionHeaderProps) {
+  const Heading = titleAs;
+
+  return (
+    <div className={cn("max-w-3xl", className)}>
+      {eyebrow ? (
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-accent-strong">
+          {eyebrow}
+        </p>
+      ) : null}
+      <Heading className="font-[var(--display)] text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
+        {title}
+      </Heading>
+      {intro ? (
+        <p className="mt-5 max-w-2xl text-base leading-7 text-muted sm:text-lg">
+          {intro}
+        </p>
+      ) : null}
+    </div>
+  );
+}

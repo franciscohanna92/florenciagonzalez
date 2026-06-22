@@ -1,65 +1,191 @@
-import Image from "next/image";
+import type { Metadata } from "next";
+import { Button } from "@/components/button";
+import { ContactCTA } from "@/components/contact-cta";
+import { Container } from "@/components/container";
+import { ImagePlaceholder } from "@/components/image-placeholder";
+import { ProcessStep } from "@/components/process-step";
+import { ProjectCard } from "@/components/project-card";
+import { SectionHeader } from "@/components/section-header";
+import { ServiceCard } from "@/components/service-card";
+import { featuredProjects } from "@/data/projects";
+import { processSteps, serviceGroups } from "@/lib/content";
+import { placeholderImage } from "@/lib/placeholders";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Florencia González | Arquitectura e interiores",
+  },
+  description:
+    "Arquitectura, interiores, visualización 3D, documentación y dirección de obra para viviendas y espacios comerciales.",
+};
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <Container
+        as="section"
+        className="grid gap-10 py-12 md:grid-cols-[1.02fr_0.98fr] md:items-center md:py-20"
+      >
+        <div>
+          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.18em] text-accent-strong">
+            Arquitectura e interiores
           </p>
+          <h1 className="max-w-3xl font-[var(--display)] text-5xl leading-[1.02] text-foreground sm:text-6xl lg:text-7xl">
+            Diseño espacios desde la idea hasta la obra.
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
+            Trabajo en proyectos residenciales y comerciales, combinando
+            arquitectura, interiorismo, documentación técnica, visualización 3D
+            y dirección de obra.
+          </p>
+          <p className="mt-4 max-w-xl text-sm leading-6 text-muted">
+            Casas, reformas, locales comerciales, interiores, mobiliario,
+            aprobaciones y acompañamiento en obra.
+          </p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Button href="/contacto">Contame qué querés proyectar</Button>
+            <Button href="/proyectos" variant="secondary">
+              Ver proyectos
+            </Button>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+
+        <div className="grid gap-4">
+          <ImagePlaceholder
+            alt="Placeholder de proyecto residencial"
+            className="aspect-[5/4]"
+            label="Proyecto residencial"
+            priority
+            src={placeholderImage("1200x960", "Proyecto residencial")}
+          />
+          <div className="grid grid-cols-2 gap-4">
+            <ImagePlaceholder
+              alt="Placeholder de interiorismo"
+              className="aspect-[4/3]"
+              label="Interiorismo"
+              src={placeholderImage("700x520", "Interiorismo", {
+                background: "dce0d3",
+              })}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <ImagePlaceholder
+              alt="Placeholder de local comercial"
+              className="aspect-[4/3]"
+              label="Local comercial"
+              src={placeholderImage("700x520", "Local comercial", {
+                background: "ead2c8",
+              })}
+            />
+          </div>
         </div>
-      </main>
-    </div>
+      </Container>
+
+      <section className="border-border border-t bg-surface py-16 md:py-24">
+        <Container>
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+            <SectionHeader
+              intro="Cada proyecto puede empezar en un punto distinto: una idea, un terreno, un local, una reforma pendiente, una necesidad de aprobación o una obra que necesita ordenarse."
+              title="Qué puedo hacer por tu espacio"
+            />
+            <Button className="max-w-max" href="/servicios" variant="secondary">
+              Ver servicios
+            </Button>
+          </div>
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            {serviceGroups.map((service) => (
+              <ServiceCard
+                key={service.title}
+                text={service.summary}
+                title={service.title}
+              />
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16 md:py-24">
+        <Container>
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+            <SectionHeader
+              intro="Una selección de trabajos residenciales y comerciales, con proyectos diseñados, obras finalizadas, visualizaciones 3D y detalles de proceso."
+              title="Proyectos destacados"
+            />
+            <Button className="max-w-max" href="/proyectos" variant="secondary">
+              Ver todos los proyectos
+            </Button>
+          </div>
+          <div className="mt-12 grid gap-10 md:grid-cols-2">
+            {featuredProjects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="border-border border-y bg-surface py-16 md:py-24">
+        <Container className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+          <SectionHeader
+            intro="Me gusta que el proceso sea claro desde el principio. Por eso ordeno cada proyecto en etapas, para tomar decisiones con información, criterio y una idea concreta de lo que se va a desarrollar."
+            title="Cómo trabajo"
+          />
+          <div className="grid gap-7">
+            {processSteps.slice(0, 5).map((step) => (
+              <ProcessStep
+                key={step.number}
+                number={step.number}
+                text={step.short}
+                title={step.title}
+              />
+            ))}
+            <Button
+              className="max-w-max"
+              href="/como-trabajo"
+              variant="secondary"
+            >
+              Conocer el proceso
+            </Button>
+          </div>
+        </Container>
+      </section>
+
+      <Container
+        as="section"
+        className="grid gap-10 py-16 md:grid-cols-[0.9fr_1.1fr] md:items-center md:py-24"
+      >
+        <ImagePlaceholder
+          alt="Placeholder de perfil profesional"
+          className="aspect-[4/5]"
+          label="Sobre mí"
+          src={placeholderImage("900x1125", "Perfil profesional", {
+            background: "dce0d3",
+          })}
+        />
+        <div>
+          <SectionHeader title="Sobre mí" />
+          <div className="mt-6 space-y-4 text-base leading-7 text-muted">
+            <p>
+              Soy arquitecta y trabajo en proyectos residenciales y comerciales,
+              desde el diseño inicial hasta la documentación y la dirección de
+              obra.
+            </p>
+            <p>
+              Me interesa crear espacios simples, cálidos y funcionales, con una
+              estética cuidada y decisiones pensadas para la vida real. Creo que
+              un buen proyecto no solo tiene que verse bien: también tiene que
+              poder construirse, usarse y sostenerse en el tiempo.
+            </p>
+            <p>
+              En cada trabajo busco ordenar ideas, resolver necesidades
+              concretas y acompañar el proceso con claridad, criterio y atención
+              al detalle.
+            </p>
+          </div>
+          <Button className="mt-8" href="/sobre-mi" variant="secondary">
+            Conocer más
+          </Button>
+        </div>
+      </Container>
+
+      <ContactCTA />
+    </>
   );
 }
