@@ -1,4 +1,5 @@
-import { Button } from "@/components/button";
+import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
 
 type ContactCTAProps = {
   title?: string;
@@ -12,23 +13,22 @@ export function ContactCTA({
   buttonLabel = "Contame qué querés proyectar",
 }: ContactCTAProps) {
   return (
-    <section className="bg-olive text-surface">
+    <section className="bg-brand text-brand-foreground">
       <div className="mx-auto grid max-w-7xl gap-8 px-5 py-14 sm:px-8 md:grid-cols-[1fr_auto] md:items-center lg:px-10">
         <div>
-          <h2 className="font-[var(--display)] text-4xl leading-tight sm:text-5xl">
+          <h2 className="font-heading text-4xl leading-tight sm:text-5xl">
             {title}
           </h2>
-          <p className="mt-4 max-w-2xl text-sm leading-6 text-surface/80 sm:text-base">
+          <p className="mt-4 max-w-2xl text-sm leading-6 text-brand-foreground/80 sm:text-base">
             {text}
           </p>
         </div>
-        <Button
-          className="border-surface hover:bg-accent-soft"
+        <Link
+          className={buttonVariants({ variant: "secondary", size: "lg" })}
           href="/contacto"
-          variant="secondary"
         >
           {buttonLabel}
-        </Button>
+        </Link>
       </div>
     </section>
   );

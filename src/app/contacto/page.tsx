@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
-import { Button } from "@/components/button";
 import { Container } from "@/components/container";
 import { SectionHeader } from "@/components/section-header";
+import { buttonVariants } from "@/components/ui/button";
+import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
+import { Input } from "@/components/ui/input";
+import {
+  NativeSelect,
+  NativeSelectOption,
+} from "@/components/ui/native-select";
+import { Separator } from "@/components/ui/separator";
+import { Textarea } from "@/components/ui/textarea";
 import {
   projectStatusOptions,
   projectTypeOptions,
@@ -27,20 +35,24 @@ export default function ContactoPage() {
           titleAs="h1"
         />
 
-        <dl className="mt-10 space-y-4 border-border border-t pt-6 text-sm">
+        <dl className="mt-10 flex flex-col gap-4 border-border border-t pt-6 text-sm">
           <div>
             <dt className="font-semibold text-foreground">Ubicación</dt>
-            <dd className="mt-1 text-muted">{siteConfig.location}</dd>
+            <dd className="mt-1 text-muted-foreground">
+              {siteConfig.location}
+            </dd>
           </div>
           <div>
             <dt className="font-semibold text-foreground">Modalidad</dt>
-            <dd className="mt-1 text-muted">{siteConfig.remoteWork}</dd>
+            <dd className="mt-1 text-muted-foreground">
+              {siteConfig.remoteWork}
+            </dd>
           </div>
           <div>
             <dt className="font-semibold text-foreground">WhatsApp</dt>
             <dd className="mt-1">
               <a
-                className="text-accent-strong underline-offset-4 hover:underline"
+                className="text-primary underline-offset-4 hover:underline"
                 href={siteConfig.whatsappHref}
                 rel="noreferrer"
                 target="_blank"
@@ -51,137 +63,96 @@ export default function ContactoPage() {
           </div>
           <div>
             <dt className="font-semibold text-foreground">Email</dt>
-            <dd className="mt-1 text-muted">{siteConfig.email}</dd>
+            <dd className="mt-1 text-muted-foreground">{siteConfig.email}</dd>
           </div>
           <div>
             <dt className="font-semibold text-foreground">Instagram</dt>
-            <dd className="mt-1 text-muted">{siteConfig.instagram}</dd>
+            <dd className="mt-1 text-muted-foreground">
+              {siteConfig.instagram}
+            </dd>
           </div>
         </dl>
       </div>
 
-      <form className="grid gap-5 rounded-xl border-border border bg-surface p-5 sm:p-8">
-        <div className="grid gap-2">
-          <label className="text-sm font-medium text-foreground" htmlFor="name">
-            Nombre
-          </label>
-          <input
-            className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-            id="name"
-            name="name"
-            type="text"
-          />
-        </div>
+      <form className="rounded-none border border-border bg-card p-5 text-card-foreground sm:p-8">
+        <FieldGroup className="gap-5">
+          <Field>
+            <FieldLabel htmlFor="name">Nombre</FieldLabel>
+            <Input id="name" name="name" type="text" />
+          </Field>
 
-        <div className="grid gap-5 sm:grid-cols-2">
-          <div className="grid gap-2">
-            <label
-              className="text-sm font-medium text-foreground"
-              htmlFor="email"
-            >
-              Email
-            </label>
-            <input
-              className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-              id="email"
-              name="email"
-              type="email"
-            />
-          </div>
-          <div className="grid gap-2">
-            <label
-              className="text-sm font-medium text-foreground"
-              htmlFor="phone"
-            >
-              Teléfono / WhatsApp
-            </label>
-            <input
-              className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-              id="phone"
-              name="phone"
-              type="tel"
-            />
-          </div>
-        </div>
+          <FieldGroup className="gap-5 sm:grid sm:grid-cols-2">
+            <Field>
+              <FieldLabel htmlFor="email">Email</FieldLabel>
+              <Input id="email" name="email" type="email" />
+            </Field>
+            <Field>
+              <FieldLabel htmlFor="phone">Teléfono / WhatsApp</FieldLabel>
+              <Input id="phone" name="phone" type="tel" />
+            </Field>
+          </FieldGroup>
 
-        <div className="grid gap-5 sm:grid-cols-2">
-          <div className="grid gap-2">
-            <label
-              className="text-sm font-medium text-foreground"
-              htmlFor="project-type"
+          <FieldGroup className="gap-5 sm:grid sm:grid-cols-2">
+            <Field>
+              <FieldLabel htmlFor="project-type">Tipo de proyecto</FieldLabel>
+              <NativeSelect
+                className="w-full"
+                id="project-type"
+                name="project-type"
+              >
+                {projectTypeOptions.map((option) => (
+                  <NativeSelectOption key={option} value={option}>
+                    {option}
+                  </NativeSelectOption>
+                ))}
+              </NativeSelect>
+            </Field>
+            <Field>
+              <FieldLabel htmlFor="location">Ubicación del proyecto</FieldLabel>
+              <Input id="location" name="location" type="text" />
+            </Field>
+          </FieldGroup>
+
+          <Field>
+            <FieldLabel htmlFor="current-status">Estado actual</FieldLabel>
+            <NativeSelect
+              className="w-full"
+              id="current-status"
+              name="current-status"
             >
-              Tipo de proyecto
-            </label>
-            <select
-              className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-              id="project-type"
-              name="project-type"
-            >
-              {projectTypeOptions.map((option) => (
-                <option key={option}>{option}</option>
+              {projectStatusOptions.map((option) => (
+                <NativeSelectOption key={option} value={option}>
+                  {option}
+                </NativeSelectOption>
               ))}
-            </select>
-          </div>
-          <div className="grid gap-2">
-            <label
-              className="text-sm font-medium text-foreground"
-              htmlFor="location"
-            >
-              Ubicación del proyecto
-            </label>
-            <input
-              className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-              id="location"
-              name="location"
-              type="text"
+            </NativeSelect>
+          </Field>
+
+          <Field>
+            <FieldLabel htmlFor="message">Mensaje</FieldLabel>
+            <Textarea
+              className="min-h-36 resize-y"
+              id="message"
+              name="message"
             />
+          </Field>
+
+          <Separator />
+
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <a
+              className={buttonVariants({ size: "lg" })}
+              href={siteConfig.whatsappHref}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Enviar consulta
+            </a>
+            <p className="text-sm leading-6 text-muted-foreground">
+              También podés escribirme directamente por WhatsApp.
+            </p>
           </div>
-        </div>
-
-        <div className="grid gap-2">
-          <label
-            className="text-sm font-medium text-foreground"
-            htmlFor="current-status"
-          >
-            Estado actual
-          </label>
-          <select
-            className="min-h-11 rounded-lg border border-border bg-background px-3 text-foreground"
-            id="current-status"
-            name="current-status"
-          >
-            {projectStatusOptions.map((option) => (
-              <option key={option}>{option}</option>
-            ))}
-          </select>
-        </div>
-
-        <div className="grid gap-2">
-          <label
-            className="text-sm font-medium text-foreground"
-            htmlFor="message"
-          >
-            Mensaje
-          </label>
-          <textarea
-            className="min-h-36 resize-y rounded-lg border border-border bg-background px-3 py-3 text-foreground"
-            id="message"
-            name="message"
-          />
-        </div>
-
-        <div className="flex flex-col gap-3 border-border border-t pt-5 sm:flex-row sm:items-center sm:justify-between">
-          <Button
-            href={siteConfig.whatsappHref}
-            rel="noreferrer"
-            target="_blank"
-          >
-            Enviar consulta
-          </Button>
-          <p className="text-sm leading-6 text-muted">
-            También podés escribirme directamente por WhatsApp.
-          </p>
-        </div>
+        </FieldGroup>
       </form>
     </Container>
   );

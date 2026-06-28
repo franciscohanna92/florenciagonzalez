@@ -6,14 +6,14 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-border border-t bg-foreground text-surface">
+    <footer className="border-border border-t bg-foreground text-background">
       <Container className="grid gap-10 py-12 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <p className="font-[var(--display)] text-3xl">{siteConfig.name}</p>
-          <p className="mt-2 text-sm uppercase tracking-[0.18em] text-surface/65">
+          <p className="font-heading text-3xl">{siteConfig.name}</p>
+          <p className="mt-2 text-sm uppercase tracking-[0.18em] text-background/65">
             {siteConfig.descriptor}
           </p>
-          <p className="mt-6 max-w-sm text-sm leading-6 text-surface/75">
+          <p className="mt-6 max-w-sm text-sm leading-6 text-background/75">
             {siteConfig.location}
             <br />
             {siteConfig.remoteWork}
@@ -21,11 +21,13 @@ export function Footer() {
         </div>
 
         <nav aria-label="Navegación secundaria">
-          <p className="text-sm font-semibold text-surface">Mapa del sitio</p>
-          <ul className="mt-4 space-y-2 text-sm text-surface/70">
+          <p className="text-sm font-semibold text-background">
+            Mapa del sitio
+          </p>
+          <ul className="mt-4 flex flex-col gap-2 text-sm text-background/70">
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link className="hover:text-surface" href={item.href}>
+                <Link className="hover:text-background" href={item.href}>
                   {item.label}
                 </Link>
               </li>
@@ -34,13 +36,13 @@ export function Footer() {
         </nav>
 
         <div>
-          <p className="text-sm font-semibold text-surface">Contacto</p>
-          <dl className="mt-4 space-y-2 text-sm text-surface/70">
+          <p className="text-sm font-semibold text-background">Contacto</p>
+          <dl className="mt-4 flex flex-col gap-2 text-sm text-background/70">
             <div>
               <dt className="sr-only">WhatsApp</dt>
               <dd>
                 <a
-                  className="hover:text-surface"
+                  className="hover:text-background"
                   href={siteConfig.whatsappHref}
                   rel="noreferrer"
                   target="_blank"
@@ -60,7 +62,7 @@ export function Footer() {
           </dl>
         </div>
       </Container>
-      <Container className="border-surface/15 border-t py-5 text-xs text-surface/55">
+      <Container className="border-background/15 border-t py-5 text-xs text-background/55">
         © {year} Florencia González. Todos los derechos reservados.
       </Container>
     </footer>

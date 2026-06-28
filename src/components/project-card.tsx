@@ -21,7 +21,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     >
       <Link
         aria-label={`Ver detalle de ${project.title}`}
-        className="group relative block overflow-hidden rounded-3xl bg-foreground shadow-[0_24px_70px_rgba(45,41,38,0.18)] transition-shadow duration-300 hover:shadow-[0_28px_80px_rgba(45,41,38,0.24)]"
+        className="group relative block overflow-hidden rounded-none bg-foreground shadow-[0_24px_70px_rgba(45,41,38,0.18)] transition-shadow duration-300 hover:shadow-[0_28px_80px_rgba(45,41,38,0.24)]"
         href={`/proyectos/${project.slug}`}
       >
         <Image
@@ -32,9 +32,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
           src={cover.src}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/35 to-foreground/5" />
-        <div className="relative flex min-h-[32rem] flex-col justify-end p-5 text-surface sm:p-6">
+        <div className="relative flex min-h-[32rem] flex-col justify-end p-5 text-background sm:p-6">
           <div className="max-w-xl">
-            <h3 className="font-[var(--display)] text-4xl leading-tight text-surface">
+            <h3 className="font-heading text-4xl leading-tight text-background">
               {project.title}
             </h3>
           </div>

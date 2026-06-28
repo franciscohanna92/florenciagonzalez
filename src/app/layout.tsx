@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Geist_Mono, Manrope } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { cn } from "@/lib/utils";
 import "./globals.css";
 
 const manrope = Manrope({
-  variable: "--font-body",
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
 const cormorant = Cormorant_Garamond({
-  variable: "--font-display",
+  variable: "--font-cormorant",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
@@ -37,11 +38,16 @@ export default function RootLayout({
   return (
     <html
       lang="es-AR"
-      className={`${manrope.variable} ${cormorant.variable} ${geistMono.variable} h-full antialiased`}
+      className={cn(
+        "h-full font-sans antialiased",
+        manrope.variable,
+        cormorant.variable,
+        geistMono.variable,
+      )}
     >
       <body className="flex min-h-full flex-col">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pt-16">{children}</main>
         <Footer />
       </body>
     </html>

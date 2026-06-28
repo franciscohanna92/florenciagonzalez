@@ -22,7 +22,7 @@ export default function ComoTrabajoPage() {
         />
       </Container>
 
-      <section className="border-border border-t bg-surface py-16 md:py-24">
+      <section className="border-border border-t bg-card py-16 text-card-foreground md:py-24">
         <Container className="grid gap-7">
           {processSteps.map((step) => (
             <ProcessStep

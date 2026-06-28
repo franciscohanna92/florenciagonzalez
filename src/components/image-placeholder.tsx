@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
 type ImagePlaceholderProps = {
@@ -26,7 +27,7 @@ export function ImagePlaceholder({
   return (
     <motion.figure
       className={cn(
-        "relative overflow-hidden rounded-xl border border-border bg-surface-strong",
+        "relative overflow-hidden rounded-none border border-border bg-muted",
         className,
       )}
       initial={reveal ? { opacity: 0, y: 36, scale: 0.98 } : false}
@@ -43,8 +44,8 @@ export function ImagePlaceholder({
         src={src}
       />
       {label ? (
-        <figcaption className="absolute right-3 bottom-3 rounded-lg bg-surface/90 px-3 py-2 text-xs font-medium text-foreground shadow-sm">
-          {label}
+        <figcaption className="absolute right-3 bottom-3 rounded-none bg-card/90 px-3 py-2 text-card-foreground shadow-sm">
+          <Badge variant="secondary">{label}</Badge>
         </figcaption>
       ) : null}
     </motion.figure>

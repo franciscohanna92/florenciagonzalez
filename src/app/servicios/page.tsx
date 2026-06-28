@@ -20,14 +20,14 @@ export default function ServiciosPage() {
           title="Servicios"
           titleAs="h1"
         />
-        <p className="mt-6 max-w-3xl text-base leading-7 text-muted">
+        <p className="mt-6 max-w-3xl text-base leading-7 text-muted-foreground">
           Trabajo el alcance según lo que necesitás resolver, con una mirada que
           combina diseño, funcionalidad, criterio técnico y posibilidades reales
           de ejecución.
         </p>
       </Container>
 
-      <section className="border-border border-t bg-surface py-16 md:py-24">
+      <section className="border-border border-t bg-card py-16 text-card-foreground md:py-24">
         <Container className="grid gap-12">
           {serviceGroups.map((service) => (
             <ServiceCard

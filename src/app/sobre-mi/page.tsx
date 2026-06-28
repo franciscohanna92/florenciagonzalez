@@ -30,7 +30,7 @@ export default function SobreMiPage() {
         />
         <div>
           <SectionHeader title="Sobre mí" titleAs="h1" />
-          <div className="mt-6 space-y-4 text-base leading-7 text-muted">
+          <div className="mt-6 flex flex-col gap-4 text-base leading-7 text-muted-foreground">
             <p>
               Soy arquitecta y trabajo en proyectos residenciales y comerciales,
               combinando diseño arquitectónico, interiorismo, documentación
@@ -55,19 +55,23 @@ export default function SobreMiPage() {
           <dl className="mt-10 grid gap-4 border-border border-t pt-6 text-sm sm:grid-cols-2">
             <div>
               <dt className="font-semibold text-foreground">Matrícula</dt>
-              <dd className="mt-1 text-muted">[completar]</dd>
+              <dd className="mt-1 text-muted-foreground">[completar]</dd>
             </div>
             <div>
               <dt className="font-semibold text-foreground">Formación</dt>
-              <dd className="mt-1 text-muted">[completar]</dd>
+              <dd className="mt-1 text-muted-foreground">[completar]</dd>
             </div>
             <div>
               <dt className="font-semibold text-foreground">Ubicación</dt>
-              <dd className="mt-1 text-muted">{siteConfig.location}</dd>
+              <dd className="mt-1 text-muted-foreground">
+                {siteConfig.location}
+              </dd>
             </div>
             <div>
               <dt className="font-semibold text-foreground">Modalidad</dt>
-              <dd className="mt-1 text-muted">{siteConfig.remoteWork}</dd>
+              <dd className="mt-1 text-muted-foreground">
+                {siteConfig.remoteWork}
+              </dd>
             </div>
           </dl>
         </div>
