@@ -85,7 +85,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
         </section>
       ) : null}
 
-      <Container as="section" className="py-16 md:py-24">
+      <Container as="section" className="py-8 md:py-8">
         <ProjectGallery images={project.images} />
       </Container>
 

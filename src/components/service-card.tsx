@@ -16,7 +16,11 @@ export function ServiceCard({
 }: ServiceCardProps) {
   return (
     <article className="border-border border-t pt-6">
-      <Icon aria-hidden="true" className="size-7 text-primary" weight="light" />
+      <Icon
+        aria-hidden="true"
+        className="size-7 text-highlight"
+        weight="light"
+      />
       <h3 className="mt-4 font-heading text-3xl leading-tight text-foreground">
         {title}
       </h3>

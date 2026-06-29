@@ -28,7 +28,7 @@ export function SectionHeader({
       ) : null}
       <Heading
         className={cn(
-          "font-heading text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl",
+          "font-heading text-4xl font-semibold leading-[1.05] text-foreground sm:text-5xl lg:text-6xl",
           emphasized && "font-semibold",
         )}
       >
