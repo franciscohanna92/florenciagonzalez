@@ -20,7 +20,7 @@
 - [x] 3.4 Build `/proyectos/[slug]` from static project data, including metadata, static params, unknown-slug handling, project meta, gallery placeholders, challenge/solution/result sections, and contact CTA.
 - [x] 3.5 Build `/como-trabajo` with the six ordered process stages and consultation CTA.
 - [x] 3.6 Build `/sobre-mi` with first-person profile copy, profile placeholder visual, San Juan location, and editable credential placeholders.
-- [x] 3.7 Build `/contacto` with visible contact data, WhatsApp `+543825554196`, editable email/Instagram placeholders, all required form fields, project-type options, project-status options, and clear non-backend form behavior.
+- [x] 3.7 Build `/contacto` with visible contact data, WhatsApp `+542644171300`, editable email/Instagram placeholders, all required form fields, project-type options, project-status options, and clear non-backend form behavior.
 
 ## 4. SEO, Copy, Responsiveness, and Verification
 

@@ -9,7 +9,7 @@ Florencia González needs a first functional website that presents her personal 
 - Add a reusable component structure for layout, cards, CTAs, process steps, project metadata, contact sections, and image placeholders.
 - Add static project data with visible category, year, status, services, descriptions, detail content, and placeholder image URLs from `https://placehold.co/`.
 - Add Spanish copy in first person where appropriate, using Argentine voseo for visitor-facing calls to action.
-- Add contact content and a visual contact form, including WhatsApp `+543825554196`; backend submission is out of scope for this first version.
+- Add contact content and a visual contact form, including WhatsApp `+542644171300`; backend submission is out of scope for this first version.
 - Add basic page metadata, semantic headings, responsive layouts, and accessibility-minded links, focus states, and placeholder handling.
 - Avoid presenting "Proyecto integral" as a page, primary service, or standalone product category.
 

@@ -1,6 +1,6 @@
 ## Context
 
-The project is a clean Next.js 16 App Router scaffold using TypeScript, React 19, Tailwind CSS 4, and Biome. The existing app contains only the starter root layout, starter home page, and default global CSS. The brief defines a personal-brand architecture website for Florencia González, with Spanish copy, Argentine voseo, a warm editorial visual direction, static project data, `placehold.co` imagery, and WhatsApp contact via `+543825554196`.
+The project is a clean Next.js 16 App Router scaffold using TypeScript, React 19, Tailwind CSS 4, and Biome. The existing app contains only the starter root layout, starter home page, and default global CSS. The brief defines a personal-brand architecture website for Florencia González, with Spanish copy, Argentine voseo, a warm editorial visual direction, static project data, `placehold.co` imagery, and WhatsApp contact via `+542644171300`.
 
 The implementation must follow the local Next.js documentation because this project uses Next 16. Relevant constraints from the bundled docs include App Router file-system routing, page/layout metadata exports in Server Components, Tailwind 4 imported from global CSS, and remote image configuration when using `next/image` with external URLs.
 
@@ -72,7 +72,7 @@ Alternatives considered:
 
 ### Keep contact functional enough without backend submission
 
-Show WhatsApp as a direct contact path using `+543825554196` and include the visual form fields from the brief. The form can have a placeholder client-side or non-submitting behavior, but must not imply successful backend delivery.
+Show WhatsApp as a direct contact path using `+542644171300` and include the visual form fields from the brief. The form can have a placeholder client-side or non-submitting behavior, but must not imply successful backend delivery.
 
 Alternatives considered:
 
