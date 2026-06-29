@@ -16,14 +16,15 @@ export default function ProyectosPage() {
     <>
       <Container as="section" className="py-12 md:py-20">
         <SectionHeader
+          emphasized
           intro="Cada proyecto muestra una forma distinta de resolver necesidades, usos y posibilidades reales. Algunos corresponden a obras finalizadas, otros a propuestas de diseño, visualizaciones 3D o procesos en desarrollo."
           title="Proyectos"
           titleAs="h1"
         />
       </Container>
 
-      <section className="py-16 md:py-24">
-        <Container className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+      <section className="pt-8 pb-16 md:pt-12 md:pb-24">
+        <Container className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}

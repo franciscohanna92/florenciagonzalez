@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Geist_Mono, Manrope } from "next/font/google";
+import {
+  Cormorant_Garamond,
+  Geist_Mono,
+  Manrope,
+  Space_Grotesk,
+  Roboto_Slab, Instrument_Serif, Inter } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { cn } from "@/lib/utils";
 import "./globals.css";
+
+const instrumentSerifHeading = Instrument_Serif({subsets:['latin'],weight:['400'],variable:'--font-heading'});
+
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -43,6 +52,9 @@ export default function RootLayout({
         manrope.variable,
         cormorant.variable,
         geistMono.variable,
+        "font-sans",
+        inter.variable,
+        instrumentSerifHeading.variable,
       )}
     >
       <body className="flex min-h-full flex-col">

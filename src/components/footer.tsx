@@ -1,3 +1,8 @@
+import {
+  EnvelopeSimpleIcon,
+  InstagramLogoIcon,
+  WhatsappLogoIcon,
+} from "@phosphor-icons/react/ssr";
 import Link from "next/link";
 import { Container } from "@/components/container";
 import { navItems, siteConfig } from "@/lib/content";
@@ -12,11 +17,6 @@ export function Footer() {
           <p className="font-heading text-3xl">{siteConfig.name}</p>
           <p className="mt-2 text-sm uppercase tracking-[0.18em] text-background/65">
             {siteConfig.descriptor}
-          </p>
-          <p className="mt-6 max-w-sm text-sm leading-6 text-background/75">
-            {siteConfig.location}
-            <br />
-            {siteConfig.remoteWork}
           </p>
         </div>
 
@@ -40,24 +40,52 @@ export function Footer() {
           <dl className="mt-4 flex flex-col gap-2 text-sm text-background/70">
             <div>
               <dt className="sr-only">WhatsApp</dt>
-              <dd>
+              <dd className="flex items-center gap-2">
+                <WhatsappLogoIcon
+                  aria-hidden="true"
+                  className="size-4 shrink-0"
+                />
                 <a
                   className="hover:text-background"
                   href={siteConfig.whatsappHref}
                   rel="noreferrer"
                   target="_blank"
                 >
-                  WhatsApp: {siteConfig.whatsapp}
+                  {siteConfig.whatsapp}
                 </a>
               </dd>
             </div>
             <div>
               <dt className="sr-only">Email</dt>
-              <dd>Email: {siteConfig.email}</dd>
+              <dd className="flex items-center gap-2">
+                <EnvelopeSimpleIcon
+                  aria-hidden="true"
+                  className="size-4 shrink-0"
+                />
+                <a
+                  className="hover:text-background"
+                  href={siteConfig.emailHref}
+                >
+                  {siteConfig.email}
+                </a>
+              </dd>
             </div>
             <div>
               <dt className="sr-only">Instagram</dt>
-              <dd>Instagram: {siteConfig.instagram}</dd>
+              <dd className="flex items-center gap-2">
+                <InstagramLogoIcon
+                  aria-hidden="true"
+                  className="size-4 shrink-0"
+                />
+                <a
+                  className="hover:text-background"
+                  href={siteConfig.instagramHref}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  {siteConfig.instagram}
+                </a>
+              </dd>
             </div>
           </dl>
         </div>

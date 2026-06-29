@@ -6,6 +6,7 @@ type SectionHeaderProps = {
   intro?: string;
   titleAs?: "h1" | "h2";
   className?: string;
+  emphasized?: boolean;
 };
 
 export function SectionHeader({
@@ -14,6 +15,7 @@ export function SectionHeader({
   intro,
   titleAs = "h2",
   className,
+  emphasized = false,
 }: SectionHeaderProps) {
   const Heading = titleAs;
 
@@ -24,7 +26,12 @@ export function SectionHeader({
           {eyebrow}
         </p>
       ) : null}
-      <Heading className="font-heading text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
+      <Heading
+        className={cn(
+          "font-heading text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl",
+          emphasized && "font-semibold",
+        )}
+      >
         {title}
       </Heading>
       {intro ? (

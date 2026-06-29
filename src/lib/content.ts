@@ -5,15 +5,14 @@ export const siteConfig = {
   remoteWork: "Proyectos presenciales y a distancia según alcance",
   whatsapp: "+543825554196",
   whatsappHref: "https://wa.me/543825554196",
-  email: "[completar]",
-  instagram: "[completar]",
+  email: "gonzalez.florencialuz@gmail.com",
+  emailHref: "mailto:gonzalez.florencialuz@gmail.com",
+  instagram: "@florencial.arq",
+  instagramHref: "https://www.instagram.com/florencial.arq",
 };
 
 export const navItems = [
   { label: "Proyectos", href: "/proyectos" },
-  { label: "Servicios", href: "/servicios" },
-  { label: "Cómo trabajo", href: "/como-trabajo" },
-  { label: "Sobre mí", href: "/sobre-mi" },
   { label: "Contacto", href: "/contacto" },
 ];
 

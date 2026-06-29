@@ -16,7 +16,7 @@ export function ProjectMeta({
   ];
 
   return (
-    <dl className="grid gap-3 text-sm sm:grid-cols-2">
+    <dl className="grid w-full gap-3 text-sm sm:grid-cols-3">
       {meta.map(([label, value]) => (
         <div className="border-border border-t pt-3" key={label}>
           <dt className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">

@@ -1,10 +1,37 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 
-const SOURCE_ORIGIN = "https://gonzalezflorencialuz.myportfolio.com";
-const WORK_URL = `${SOURCE_ORIGIN}/work`;
+const PROJECT_URLS = [
+  "https://www.behance.net/gallery/251560199/Remodelacion-cocina",
+  "https://www.behance.net/gallery/251559415/Lucila-Caf",
+  "https://www.behance.net/gallery/237853499/CASA-VP",
+  "https://www.behance.net/gallery/242104211/KUBO",
+  "https://www.behance.net/gallery/237853287/CASA-PR",
+  "https://www.behance.net/gallery/237853113/ROCKET-RAPI-WASH",
+  "https://www.behance.net/gallery/237851897/MILLON",
+  "https://www.behance.net/gallery/237851091/CASA-VS",
+  "https://www.behance.net/gallery/237841627/CASA-JR",
+  "https://www.behance.net/gallery/236203073/-quem-",
+  "https://www.behance.net/gallery/220208519/VALLEJO-CALZADOS",
+  "https://www.behance.net/gallery/220207541/ALPINESTARS",
+  "https://www.behance.net/gallery/216519417/CASA-JM-VISUALIZACION",
+  "https://www.behance.net/gallery/213428515/Food-Market",
+  "https://www.behance.net/gallery/208212343/Mokka-Caf-Espacio-San-Juan",
+  "https://www.behance.net/gallery/206148157/MOKKA-CAFE-CHILE",
+  "https://www.behance.net/gallery/206067477/Exterior-3D-Visualizacion",
+  "https://www.behance.net/gallery/184874039/Espacio-de-juegos",
+  "https://www.behance.net/gallery/171349449/Diseno-Cocina",
+  "https://www.behance.net/gallery/167356097/Bathroom",
+  "https://www.behance.net/gallery/157892927/WINE-BAR",
+  "https://www.behance.net/gallery/157861915/MOKKA",
+  "https://www.behance.net/gallery/149649543/ESPACIO-M",
+  "https://www.behance.net/gallery/149648581/CAFE-DEL-PATIO",
+  "https://www.behance.net/gallery/130050877/BISTREA-CAFETTO",
+  "https://www.behance.net/gallery/129997819/Casa-AR",
+];
+
 const ROOT_DIR = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -28,27 +55,35 @@ const CATEGORY_SERVICES = {
 
 const REQUEST_HEADERS = {
   "user-agent":
-    "Mozilla/5.0 (compatible; FlorenciaPortfolioScraper/1.0; +https://gonzalezflorencialuz.myportfolio.com/)",
+    "Mozilla/5.0 (compatible; FlorenciaPortfolioScraper/2.0; +https://www.behance.net/florencia1112)",
 };
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function fetchText(url) {
-  const response = await fetch(url, { headers: REQUEST_HEADERS });
+async function fetchWithRetry(url) {
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const response = await fetch(url, { headers: REQUEST_HEADERS });
 
-  if (!response.ok) {
-    throw new Error(`Could not fetch ${url}: ${response.status}`);
+    if (response.ok) {
+      return response;
+    }
+
+    if (attempt === 3 || (response.status < 500 && response.status !== 429)) {
+      throw new Error(`Could not fetch ${url}: ${response.status}`);
+    }
+
+    await sleep(attempt * 1000);
   }
 
-  return response.text();
+  throw new Error(`Could not fetch ${url}`);
+}
+
+async function fetchText(url) {
+  return (await fetchWithRetry(url)).text();
 }
 
 async function fetchBuffer(url) {
-  const response = await fetch(url, { headers: REQUEST_HEADERS });
-
-  if (!response.ok) {
-    throw new Error(`Could not download ${url}: ${response.status}`);
-  }
+  const response = await fetchWithRetry(url);
 
   return {
     buffer: Buffer.from(await response.arrayBuffer()),
@@ -69,123 +104,6 @@ function toSlug(value) {
     .replace(/^-+|-+$/g, "");
 }
 
-function absoluteUrl(value) {
-  if (!value || value.startsWith("data:")) {
-    return null;
-  }
-
-  return new URL(value, SOURCE_ORIGIN).toString();
-}
-
-function parseSrcset(value) {
-  if (!value) {
-    return [];
-  }
-
-  return value
-    .split(",")
-    .map((candidate) => {
-      const [url, descriptor] = candidate.trim().split(/\s+/);
-      const width = Number.parseInt(descriptor?.replace("w", "") ?? "0", 10);
-
-      return {
-        url: absoluteUrl(url),
-        width: Number.isNaN(width) ? 0 : width,
-      };
-    })
-    .filter((candidate) => candidate.url);
-}
-
-function bestImageUrl($element) {
-  const candidates = [
-    ...parseSrcset($element.attr("data-srcset")),
-    ...parseSrcset($element.attr("srcset")),
-  ];
-
-  for (const attr of ["data-src", "src"]) {
-    const url = absoluteUrl($element.attr(attr));
-
-    if (url) {
-      candidates.push({ url, width: inferWidthFromUrl(url) });
-    }
-  }
-
-  const lightboxUrl = absoluteUrl(
-    $element.closest(".js-lightbox").attr("data-src"),
-  );
-
-  if (lightboxUrl) {
-    candidates.push({
-      url: lightboxUrl,
-      width: inferWidthFromUrl(lightboxUrl),
-    });
-  }
-
-  candidates.sort((a, b) => b.width - a.width);
-
-  return candidates[0]?.url ?? null;
-}
-
-function inferWidthFromUrl(url) {
-  const widthMatch = url.match(/(?:_rw_|x)(\d{2,5})(?:\.|x)/);
-
-  if (widthMatch) {
-    return Number.parseInt(widthMatch[1], 10);
-  }
-
-  return url.includes("_car_") ? 1400 : 9999;
-}
-
-function assetKey(url) {
-  const { origin, pathname } = new URL(url);
-  const extension = path.extname(pathname);
-  const baseName = path.basename(pathname, extension).replace(/_.+$/, "");
-
-  return `${origin}${path.dirname(pathname)}/${baseName}`;
-}
-
-function extensionFrom(url, contentType) {
-  const extension = path.extname(new URL(url).pathname).replace(".", "");
-
-  if (extension) {
-    return extension.toLowerCase() === "jpeg" ? "jpg" : extension.toLowerCase();
-  }
-
-  if (contentType.includes("png")) {
-    return "png";
-  }
-
-  if (contentType.includes("webp")) {
-    return "webp";
-  }
-
-  return "jpg";
-}
-
-function collectText($, selector) {
-  const parts = [];
-
-  $(selector).each((_, element) => {
-    const blockParts = $(element)
-      .find(".rich-text > *, p, li")
-      .map((__, child) => cleanText($(child).text()))
-      .get()
-      .filter(Boolean);
-
-    if (blockParts.length > 0) {
-      parts.push(...blockParts);
-    } else {
-      const text = cleanText($(element).text());
-
-      if (text) {
-        parts.push(text);
-      }
-    }
-  });
-
-  return cleanText(parts.join(" "));
-}
-
 function inferCategory(title, text) {
   const haystack = `${title} ${text}`.toLowerCase();
 
@@ -202,7 +120,10 @@ function inferCategory(title, text) {
     haystack.includes("calzados") ||
     haystack.includes("wash") ||
     haystack.includes("alpinestars") ||
-    haystack.includes("eventos")
+    haystack.includes("eventos") ||
+    haystack.includes("lucila") ||
+    haystack.includes("kubo") ||
+    haystack.includes("quem")
   ) {
     return "Comercial";
   }
@@ -212,7 +133,8 @@ function inferCategory(title, text) {
     haystack.includes("cocina") ||
     haystack.includes("bathroom") ||
     haystack.includes("baño") ||
-    haystack.includes("juegos")
+    haystack.includes("juegos") ||
+    haystack.includes("remodelación")
   ) {
     return "Interiorismo";
   }
@@ -224,87 +146,99 @@ function inferCategory(title, text) {
   return "Interiorismo";
 }
 
-function inferStatus(title, text) {
-  const haystack = `${title} ${text}`.toLowerCase();
-
-  if (haystack.includes("visualiz") || haystack.includes("3d")) {
-    return "Visualización 3D";
-  }
-
-  return "Proyecto";
-}
-
-function buildFallbackDescription(title, category) {
-  return `${title} es un proyecto de ${category.toLowerCase()} desarrollado por Florencia González.`;
-}
-
-function buildProjectCopy(title, category, text) {
-  const description = text || buildFallbackDescription(title, category);
-  const excerpt =
-    description.length > 170
-      ? `${description.slice(0, 167).trim()}...`
-      : description;
-
-  return {
-    excerpt,
-    description,
-    challenge:
-      "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    solution:
-      "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    result:
-      "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-  };
-}
-
-function getProjectSummaries(html) {
+function getBehanceProject(html, sourceUrl) {
   const $ = cheerio.load(html);
+  const stateJson = $("#beconfig-store_state").html();
 
-  return $("a.project-cover")
-    .map((_, element) => {
-      const $cover = $(element);
-      const href = $cover.attr("href");
-      const title = cleanText($cover.find(".title").first().text());
-      const year = cleanText($cover.find(".date").first().text());
-      const coverUrl = bestImageUrl($cover.find("img").first());
-      const sourceUrl = absoluteUrl(href);
-
-      if (!href || !title || !sourceUrl) {
-        return null;
-      }
-
-      return {
-        title,
-        slug: toSlug(href.replace(/^\//, "")) || toSlug(title),
-        year,
-        coverUrl,
-        sourceUrl,
-      };
-    })
-    .get()
-    .filter(Boolean);
-}
-
-function getProjectImages($, coverUrl) {
-  const imageMap = new Map();
-
-  if (coverUrl) {
-    imageMap.set(assetKey(coverUrl), coverUrl);
+  if (!stateJson) {
+    throw new Error(`Behance project data was not found in ${sourceUrl}`);
   }
 
-  $("#project-modules")
-    .find(".js-lightbox, img")
-    .each((_, element) => {
-      const url = bestImageUrl($(element));
+  const project = JSON.parse(stateJson).project?.project;
 
-      if (!url || !url.includes("cdn.myportfolio.com")) {
-        return;
+  if (!project?.name || !Array.isArray(project.allModules)) {
+    throw new Error(`Behance project data is incomplete in ${sourceUrl}`);
+  }
+
+  return project;
+}
+
+function imageAssetKey(url) {
+  return path.basename(new URL(url).pathname);
+}
+
+function imageTypePriority(type) {
+  return ["JPG", "JPEG", "PNG", "GIF", "WEBP"].indexOf(type);
+}
+
+function chooseLargestImage(candidates) {
+  return candidates
+    .filter((candidate) => candidate.url)
+    .toSorted((a, b) => {
+      const widthDifference =
+        (b.width ?? Number.MAX_SAFE_INTEGER) -
+        (a.width ?? Number.MAX_SAFE_INTEGER);
+
+      if (widthDifference !== 0) {
+        return widthDifference;
       }
 
-      imageMap.set(assetKey(url), url);
-    });
+      return imageTypePriority(a.type) - imageTypePriority(b.type);
+    })[0];
+}
 
-  return [...imageMap.values()];
+function getProjectImageUrls(project) {
+  const images = new Map();
+
+  function visit(value) {
+    if (!value || typeof value !== "object") {
+      return;
+    }
+
+    if (Array.isArray(value)) {
+      for (const item of value) {
+        visit(item);
+      }
+
+      return;
+    }
+
+    if (Array.isArray(value.imageSizes?.allAvailable)) {
+      const image = chooseLargestImage(value.imageSizes.allAvailable);
+
+      if (image?.url?.includes("/project_modules/")) {
+        images.set(imageAssetKey(image.url), image.url);
+      }
+
+      return;
+    }
+
+    for (const child of Object.values(value)) {
+      visit(child);
+    }
+  }
+
+  visit(project.allModules);
+
+  return [...images.values()];
+}
+
+function extensionFrom(contentType, url) {
+  if (contentType.includes("webp")) {
+    return "webp";
+  }
+
+  if (contentType.includes("png")) {
+    return "png";
+  }
+
+  if (contentType.includes("gif")) {
+    return "gif";
+  }
+
+  const extension = path.extname(new URL(url).pathname).replace(".", "");
+
+  return extension.toLowerCase() === "jpeg" ? "jpg" : extension.toLowerCase();
 }
 
 async function downloadImages(project, imageUrls) {
@@ -314,15 +248,12 @@ async function downloadImages(project, imageUrls) {
   await mkdir(projectDir, { recursive: true });
 
   for (const [index, imageUrl] of imageUrls.entries()) {
-    const imageNumber = String(index + 1).padStart(2, "0");
-    const imageRole = index === 0 ? "cover" : "gallery";
     const { buffer, contentType } = await fetchBuffer(imageUrl);
-    const extension = extensionFrom(imageUrl, contentType);
-    const fileName = `${imageNumber}-${imageRole}.${extension}`;
-    const absolutePath = path.join(projectDir, fileName);
+    const extension = extensionFrom(contentType, imageUrl);
+    const fileName = `${String(index + 1).padStart(2, "0")}.${extension}`;
     const publicPath = `/projects/${project.slug}/${fileName}`;
 
-    await writeFile(absolutePath, buffer);
+    await writeFile(path.join(projectDir, fileName), buffer);
 
     images.push({
       src: publicPath,
@@ -330,34 +261,39 @@ async function downloadImages(project, imageUrls) {
         index === 0
           ? `Imagen principal del proyecto ${project.title}`
           : `Imagen ${index + 1} del proyecto ${project.title}`,
-      originalUrl: imageUrl,
+      cover: index === 0,
     });
   }
 
   return images;
 }
 
-async function scrapeProject(summary) {
-  const html = await fetchText(summary.sourceUrl);
-  const $ = cheerio.load(html);
-  const title =
-    cleanText($(".page-header .title").first().text()) || summary.title;
-  const bodyText = collectText($, "#project-modules .project-module-text");
-  const category = inferCategory(title, bodyText);
-  const imageUrls = getProjectImages($, summary.coverUrl);
-  const images = await downloadImages({ ...summary, title }, imageUrls);
-  const copy = buildProjectCopy(title, category, bodyText);
+async function scrapeProject(sourceUrl, feature) {
+  const projectData = getBehanceProject(await fetchText(sourceUrl), sourceUrl);
+  const title = cleanText(projectData.name);
+  const slug = toSlug(title);
+  const context = [projectData.description, projectData.tags]
+    .flat()
+    .filter(Boolean)
+    .map((value) => (typeof value === "string" ? value : JSON.stringify(value)))
+    .join(" ");
+  const category = inferCategory(title, context);
+  const imageUrls = getProjectImageUrls(projectData);
+  const images = await downloadImages({ title, slug }, imageUrls);
 
   return {
     title,
-    slug: summary.slug,
+    slug,
     category,
-    year: summary.year,
-    status: inferStatus(title, bodyText),
+    year: projectData.publishedOn
+      ? String(new Date(projectData.publishedOn * 1000).getUTCFullYear())
+      : "",
     location: LOCATION,
     services: CATEGORY_SERVICES[category],
-    ...copy,
-    sourceUrl: summary.sourceUrl,
+    challenge: "",
+    solution: "",
+    result: "",
+    feature,
     images,
   };
 }
@@ -370,27 +306,20 @@ function stringifyProjects(projects) {
 }
 
 async function main() {
+  await rm(PUBLIC_PROJECTS_DIR, { recursive: true, force: true });
   await mkdir(PUBLIC_PROJECTS_DIR, { recursive: true });
-
-  const workHtml = await fetchText(WORK_URL);
-  const summaries = getProjectSummaries(workHtml);
-
-  if (summaries.length === 0) {
-    throw new Error(`No projects found in ${WORK_URL}`);
-  }
-
-  console.log(`Found ${summaries.length} projects.`);
 
   const projects = [];
   const warnings = [];
 
-  for (const [index, summary] of summaries.entries()) {
-    console.log(
-      `[${index + 1}/${summaries.length}] Scraping ${summary.title}...`,
-    );
+  console.log(`Scraping ${PROJECT_URLS.length} Behance projects.`);
+
+  for (const [index, sourceUrl] of PROJECT_URLS.entries()) {
+    console.log(`[${index + 1}/${PROJECT_URLS.length}] ${sourceUrl}`);
 
     try {
-      const project = await scrapeProject(summary);
+      const feature = index === 0 ? "hero" : index <= 4 ? "home" : null;
+      const project = await scrapeProject(sourceUrl, feature);
 
       if (project.images.length === 0) {
         warnings.push(`${project.title} has no images.`);
@@ -399,13 +328,13 @@ async function main() {
       projects.push(project);
     } catch (error) {
       warnings.push(
-        `${summary.title} failed: ${
+        `${sourceUrl} failed: ${
           error instanceof Error ? error.message : String(error)
         }`,
       );
     }
 
-    await sleep(150);
+    await sleep(200);
   }
 
   await writeFile(OUTPUT_JSON_PATH, stringifyProjects(projects));

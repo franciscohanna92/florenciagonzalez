@@ -2,13 +2,11 @@
 
 import { motion } from "motion/react";
 import Image from "next/image";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
 type ImagePlaceholderProps = {
   src: string;
   alt: string;
-  label?: string;
   className?: string;
   imageClassName?: string;
   priority?: boolean;
@@ -18,7 +16,6 @@ type ImagePlaceholderProps = {
 export function ImagePlaceholder({
   src,
   alt,
-  label,
   className,
   imageClassName,
   priority = false,
@@ -43,11 +40,6 @@ export function ImagePlaceholder({
         sizes="(min-width: 1024px) 50vw, 100vw"
         src={src}
       />
-      {label ? (
-        <figcaption className="absolute right-3 bottom-3 rounded-none bg-card/90 px-3 py-2 text-card-foreground shadow-sm">
-          <Badge variant="secondary">{label}</Badge>
-        </figcaption>
-      ) : null}
     </motion.figure>
   );
 }

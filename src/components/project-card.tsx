@@ -3,14 +3,18 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import type { Project } from "@/data/projects";
+import { getProjectCover, type Project } from "@/data/projects";
 
 type ProjectCardProps = {
   project: Project;
 };
 
 export function ProjectCard({ project }: ProjectCardProps) {
-  const cover = project.images[0];
+  const cover = getProjectCover(project);
+
+  if (!cover) {
+    return null;
+  }
 
   return (
     <motion.article
@@ -21,7 +25,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     >
       <Link
         aria-label={`Ver detalle de ${project.title}`}
-        className="group relative block overflow-hidden rounded-none bg-foreground shadow-[0_24px_70px_rgba(45,41,38,0.18)] transition-shadow duration-300 hover:shadow-[0_28px_80px_rgba(45,41,38,0.24)]"
+        className="group relative block aspect-square overflow-hidden rounded-none bg-foreground"
         href={`/proyectos/${project.slug}`}
       >
         <Image
@@ -31,13 +35,10 @@ export function ProjectCard({ project }: ProjectCardProps) {
           sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
           src={cover.src}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-foreground/90 via-foreground/35 to-foreground/5" />
-        <div className="relative flex min-h-[32rem] flex-col justify-end p-5 text-background sm:p-6">
-          <div className="max-w-xl">
-            <h3 className="font-heading text-4xl leading-tight text-background">
-              {project.title}
-            </h3>
-          </div>
+        <div className="absolute inset-x-0 bottom-0 border-background/40 border-t bg-background/60 p-5 text-foreground backdrop-blur-xl backdrop-saturate-150 sm:p-6">
+          <h3 className="font-heading text-3xl leading-tight">
+            {project.title}
+          </h3>
         </div>
       </Link>
     </motion.article>

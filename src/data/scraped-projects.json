@@ -1,1316 +1,1387 @@
 [
   {
-    "title": "KUBO",
-    "slug": "kubo",
+    "title": "Remodelación cocina",
+    "slug": "remodelacion-cocina",
+    "category": "Interiorismo",
+    "year": "2026",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "",
+    "images": [
+      {
+        "src": "/projects/remodelacion-cocina/01.jpg",
+        "alt": "Imagen principal del proyecto Remodelación cocina",
+        "cover": true
+      },
+      {
+        "src": "/projects/remodelacion-cocina/02.jpg",
+        "alt": "Imagen 2 del proyecto Remodelación cocina",
+        "cover": false
+      },
+      {
+        "src": "/projects/remodelacion-cocina/03.jpg",
+        "alt": "Imagen 3 del proyecto Remodelación cocina",
+        "cover": false
+      },
+      {
+        "src": "/projects/remodelacion-cocina/04.jpg",
+        "alt": "Imagen 4 del proyecto Remodelación cocina",
+        "cover": false
+      },
+      {
+        "src": "/projects/remodelacion-cocina/05.jpg",
+        "alt": "Imagen 5 del proyecto Remodelación cocina",
+        "cover": false
+      },
+      {
+        "src": "/projects/remodelacion-cocina/06.jpg",
+        "alt": "Imagen 6 del proyecto Remodelación cocina",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "Lucila Café",
+    "slug": "lucila-cafe",
     "category": "Comercial",
     "year": "2026",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "KUBO Espacio de eventos infantiles Arq. Florencia González",
-    "description": "KUBO Espacio de eventos infantiles Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/kubo",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "",
     "images": [
       {
-        "src": "/projects/kubo/01-cover.jpg",
-        "alt": "Imagen principal del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6b442d88-40f4-4850-8d5d-c5d4403e43ee_carw_4x3x5120.jpg?h=871c6e541f5f37e1d7b854ca0a16fff4"
+        "src": "/projects/lucila-cafe/02.jpg",
+        "alt": "Imagen 2 del proyecto Lucila Café",
+        "cover": false
       },
       {
-        "src": "/projects/kubo/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/439c505d-2240-405c-bc3b-ca912e7cb105.jpg?h=852ba2ffdbf3d4576764944982f5e7a8"
+        "src": "/projects/lucila-cafe/03.jpg",
+        "alt": "Imagen 3 del proyecto Lucila Café",
+        "cover": true
       },
       {
-        "src": "/projects/kubo/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/295e74bd-0f5d-476b-9019-2c30850f7b94_rw_1200.jpg?h=cd6cfcccbadc81fb77e5e49b99966003"
+        "src": "/projects/lucila-cafe/04.jpg",
+        "alt": "Imagen 4 del proyecto Lucila Café",
+        "cover": false
       },
       {
-        "src": "/projects/kubo/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c351aed8-b098-4ebb-95fb-e7f7b3ad0f93_rw_1920.jpg?h=bea31d1d82375d3e3f634ec3978c6028"
+        "src": "/projects/lucila-cafe/05.jpg",
+        "alt": "Imagen 5 del proyecto Lucila Café",
+        "cover": false
       },
       {
-        "src": "/projects/kubo/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bba8a2ba-f410-4718-a276-9c166bc192a1.jpg?h=8f106d089f3412fcf959126998fd4f6b"
+        "src": "/projects/lucila-cafe/06.jpg",
+        "alt": "Imagen 6 del proyecto Lucila Café",
+        "cover": false
       },
       {
-        "src": "/projects/kubo/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0ee9335f-ed9f-4343-92ab-041b5af038ad_rw_1920.jpg?h=e32e7445970f09bd2198f2f37cce4efb"
+        "src": "/projects/lucila-cafe/07.jpg",
+        "alt": "Imagen 7 del proyecto Lucila Café",
+        "cover": false
       },
       {
-        "src": "/projects/kubo/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto KUBO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ff109408-ed4b-408b-b27a-9f66eba93499_rw_1200.jpg?h=69731fe8f5243781981dfa4403a4bd52"
+        "src": "/projects/lucila-cafe/08.jpg",
+        "alt": "Imagen 8 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/09.jpg",
+        "alt": "Imagen 9 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/10.jpg",
+        "alt": "Imagen 10 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/11.jpg",
+        "alt": "Imagen 11 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/12.jpg",
+        "alt": "Imagen 12 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/13.jpg",
+        "alt": "Imagen 13 del proyecto Lucila Café",
+        "cover": false
+      },
+      {
+        "src": "/projects/lucila-cafe/14.jpg",
+        "alt": "Imagen 14 del proyecto Lucila Café",
+        "cover": false
       }
     ]
   },
   {
-    "title": "CASA PR",
-    "slug": "casa-pr",
-    "category": "Vivienda",
-    "year": "2025",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño arquitectónico", "Visualización 3D", "Documentación"],
-    "excerpt": "CASA VP​​​​​​​ Arq. Paula ValentArq. Florencia González",
-    "description": "CASA VP​​​​​​​ Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-pr",
-    "images": [
-      {
-        "src": "/projects/casa-pr/01-cover.jpg",
-        "alt": "Imagen principal del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1535a966-ee65-4541-a90d-ff0d32acf548_carw_4x3x5120.jpg?h=bef1796936f55ab530bb67f9906f6c47"
-      },
-      {
-        "src": "/projects/casa-pr/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/74a2d8ec-433d-4bde-ab75-bed6801b80e9.jpg?h=a6f5a9023152ad32959c4108502fec6a"
-      },
-      {
-        "src": "/projects/casa-pr/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/005e1838-0838-46e7-9933-993bde4369b9_rw_3840.jpg?h=deeeca1eec5750b96e3315ed04e08222"
-      },
-      {
-        "src": "/projects/casa-pr/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9ac15de2-2899-4fc2-a267-063085678c19_rw_3840.jpg?h=d049ba7c372cc3d58b2ff12cee068af5"
-      },
-      {
-        "src": "/projects/casa-pr/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/44420ea5-bc51-4648-a761-d4c0e2f86268.jpg?h=65a9c46b4b5efc38de0c9151d535ac7e"
-      },
-      {
-        "src": "/projects/casa-pr/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/22b6a762-bbcb-404d-889e-dd7295596d73_rw_3840.jpg?h=1d62abc49fd7dd81fc064c6448a913af"
-      },
-      {
-        "src": "/projects/casa-pr/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4fc13a86-b0ee-4627-9503-1b20f10484e2_rw_3840.jpg?h=74879d44c5fe2035fa366a9d3caab62b"
-      },
-      {
-        "src": "/projects/casa-pr/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto CASA PR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/286ea5ff-2fa5-480e-9b1d-e7430b41ee96.jpg?h=80e20b4f9413981ff07ddd19396d094d"
-      }
-    ]
-  },
-  {
-    "title": "CASA VP",
+    "title": "Casa VP",
     "slug": "casa-vp",
     "category": "Vivienda",
     "year": "2025",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño arquitectónico", "Visualización 3D", "Documentación"],
-    "excerpt": "CASA VP Arq. Paula ValentArq. Florencia González",
-    "description": "CASA VP Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-vp",
+    "services": [
+      "Diseño arquitectónico",
+      "Visualización 3D",
+      "Documentación"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "home",
     "images": [
       {
-        "src": "/projects/casa-vp/01-cover.jpg",
+        "src": "/projects/casa-vp/01.webp",
         "alt": "Imagen principal del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b13c7570-caf6-4b8c-994a-165307ff6ac3_carw_4x3x5120.jpg?h=8ab1da5403a11b3b22ee36c56751c09e"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/02-gallery.jpg",
+        "src": "/projects/casa-vp/02.webp",
         "alt": "Imagen 2 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6b7bed2f-cc00-4b4f-a7e2-be03af5c75a8_rw_3840.jpg?h=724754ab55cbb7fd4f9ff6bb4aada961"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/03-gallery.jpg",
+        "src": "/projects/casa-vp/03.jpg",
         "alt": "Imagen 3 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/46deab7c-a125-4499-a5be-697ff1422382_rw_3840.jpg?h=5a87e2a3268dc707aeb72249cb19aa5f"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/04-gallery.jpg",
+        "src": "/projects/casa-vp/04.jpg",
         "alt": "Imagen 4 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fed586bf-727e-4e0e-b7cf-7a7928aa8f96.jpg?h=40f4ab42488be4bdcdb261b5a9973c3a"
+        "cover": true
       },
       {
-        "src": "/projects/casa-vp/05-gallery.jpg",
+        "src": "/projects/casa-vp/05.jpg",
         "alt": "Imagen 5 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c452978e-79ee-41fa-819c-e441a3748efe.jpg?h=a4244b938e22e33ccb76bced438337e2"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/06-gallery.jpg",
+        "src": "/projects/casa-vp/06.webp",
         "alt": "Imagen 6 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/da2a5abd-67be-4f86-91e2-8fabaac89aff.jpg?h=8a1352cea8470ee1b88f2984701b3874"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/07-gallery.jpg",
+        "src": "/projects/casa-vp/07.webp",
         "alt": "Imagen 7 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8fe8b87d-81ce-4c34-8c94-6dfebf43abaf_rw_3840.jpg?h=6a6b6d9f054784a5af9467973a4de31f"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/08-gallery.jpg",
+        "src": "/projects/casa-vp/08.jpg",
         "alt": "Imagen 8 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/38f73257-4c26-4d52-a166-42f4f03dd5fe_rw_3840.jpg?h=0b04986afe928bd671ccd5f18c2536b7"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/09-gallery.jpg",
+        "src": "/projects/casa-vp/09.webp",
         "alt": "Imagen 9 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f96bc9ad-ed44-4142-8b62-bb2817177560.jpg?h=9927fc51ca9eb05b7337889703d0c989"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/10-gallery.jpg",
+        "src": "/projects/casa-vp/10.webp",
         "alt": "Imagen 10 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/01037f40-3a24-4a30-8275-556f2b08e859_rw_3840.jpg?h=5757239c43a389a3576b86aa08762268"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/11-gallery.jpg",
+        "src": "/projects/casa-vp/11.jpg",
         "alt": "Imagen 11 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f9c20f18-2828-4fc0-b48c-f33d4eee00db_rw_3840.jpg?h=ee0eb360dc2a293a2130e671f7fa4e66"
+        "cover": false
       },
       {
-        "src": "/projects/casa-vp/12-gallery.jpg",
+        "src": "/projects/casa-vp/12.png",
         "alt": "Imagen 12 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c0febf89-addf-438f-81cf-4cadd196b25e.jpg?h=b3baac4eda0e80d1cad2e61ce8b7bf8d"
-      },
-      {
-        "src": "/projects/casa-vp/13-gallery.png",
-        "alt": "Imagen 13 del proyecto CASA VP",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/52e056cc-66ad-474d-b817-76184e94d01b.png?h=0176a81308909b507084b3ed5d5a90c4"
+        "cover": false
       }
     ]
   },
   {
-    "title": "MILLÓN",
-    "slug": "millon",
-    "category": "Interiorismo",
-    "year": "2025",
-    "status": "Proyecto",
+    "title": "Kubo",
+    "slug": "kubo",
+    "category": "Visualización 3D",
+    "year": "2026",
     "location": "San Juan, Argentina",
-    "services": ["Diseño interior", "Mobiliario a medida", "Visualización 3D"],
-    "excerpt": "MILLÓN CONCEPCIÓN Ing. Beto QuirogaArq. Florencia González",
-    "description": "MILLÓN CONCEPCIÓN Ing. Beto QuirogaArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/millon",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "",
     "images": [
       {
-        "src": "/projects/millon/01-cover.jpg",
-        "alt": "Imagen principal del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b37d45be-c499-42f2-b6b1-f77f6ca427cf_carw_4x3x5120.jpg?h=1870f21ff921477f71ed256e5c92fda6"
+        "src": "/projects/kubo/01.jpg",
+        "alt": "Imagen principal del proyecto KUBO",
+        "cover": true
       },
       {
-        "src": "/projects/millon/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a60aac5b-10c4-4d76-9524-2b96558541f4.jpg?h=e2213398645e0ad71ff87427cdd8c3e3"
+        "src": "/projects/kubo/02.jpg",
+        "alt": "Imagen 2 del proyecto KUBO",
+        "cover": false
       },
       {
-        "src": "/projects/millon/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9fa36fab-e713-4ded-876f-04eb0924383b.jpg?h=7158359ad567141711e3aef237f7018a"
+        "src": "/projects/kubo/03.jpg",
+        "alt": "Imagen 3 del proyecto KUBO",
+        "cover": false
       },
       {
-        "src": "/projects/millon/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d86d7041-0bf5-4f43-ada4-d550a25e37fb_rw_1920.jpg?h=5eb1269fd4dee7e3b1a02e88c73c6697"
+        "src": "/projects/kubo/04.jpg",
+        "alt": "Imagen 4 del proyecto KUBO",
+        "cover": false
       },
       {
-        "src": "/projects/millon/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3b1f282d-26b5-4a38-9235-b039bd28f549_rw_1920.jpg?h=b29408a6ffd62d10fb62094a73157a6c"
+        "src": "/projects/kubo/05.jpg",
+        "alt": "Imagen 5 del proyecto KUBO",
+        "cover": false
       },
       {
-        "src": "/projects/millon/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7fb12877-6f6c-406e-8be4-56b596a9a312.jpg?h=600b9839b81348c45557bfe5c03a6c95"
-      },
-      {
-        "src": "/projects/millon/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/02652a83-dd99-4e64-a684-1c01a5e19756.jpg?h=d560d5a954195ac24afa451cd70427d0"
-      },
-      {
-        "src": "/projects/millon/08-gallery.png",
-        "alt": "Imagen 8 del proyecto MILLÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8ff7d36b-8895-4be0-8ad4-c60cb5423721.png?h=6106016e0dc8d5a4d9c4f8bef3a18ff0"
+        "src": "/projects/kubo/06.jpg",
+        "alt": "Imagen 6 del proyecto KUBO",
+        "cover": false
       }
     ]
   },
   {
-    "title": "CASA VS",
-    "slug": "casa-vs",
+    "title": "Casa PR",
+    "slug": "casa-pr",
     "category": "Vivienda",
     "year": "2025",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño arquitectónico", "Visualización 3D", "Documentación"],
-    "excerpt": "CASA VS Arq. Paula ValentArq. Florencia González",
-    "description": "CASA VS Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-vs",
+    "services": [
+      "Diseño arquitectónico",
+      "Visualización 3D",
+      "Documentación"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "hero",
     "images": [
       {
-        "src": "/projects/casa-vs/01-cover.jpg",
-        "alt": "Imagen principal del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1db9eaf9-5282-482c-ac42-c31eb8110c68_carw_4x3x5120.jpg?h=6a42d379ea0c393ee36f6be4fa305368"
+        "src": "/projects/casa-pr/01.jpg",
+        "alt": "Imagen principal del proyecto CASA PR",
+        "cover": true
       },
       {
-        "src": "/projects/casa-vs/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f17b516e-c795-4ff7-a496-85891ba6c4cd.jpg?h=35096823436affea07216084239a0277"
+        "src": "/projects/casa-pr/02.webp",
+        "alt": "Imagen 2 del proyecto CASA PR",
+        "cover": false
       },
       {
-        "src": "/projects/casa-vs/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3006ce87-815f-4294-9046-dcbff2079cd8.jpg?h=bcd48c2520a56a88791816e51fe37742"
+        "src": "/projects/casa-pr/03.webp",
+        "alt": "Imagen 3 del proyecto CASA PR",
+        "cover": false
       },
       {
-        "src": "/projects/casa-vs/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1daee811-312a-4015-9672-313175d18b34.jpg?h=8c267b6eab262013182d19705fa24a7e"
+        "src": "/projects/casa-pr/04.jpg",
+        "alt": "Imagen 4 del proyecto CASA PR",
+        "cover": false
       },
       {
-        "src": "/projects/casa-vs/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b002f620-eb1a-45ea-80c9-fcec8b7e9ec2_rw_1920.jpg?h=2009218f66ef530917209b1f5dde8501"
+        "src": "/projects/casa-pr/05.webp",
+        "alt": "Imagen 5 del proyecto CASA PR",
+        "cover": false
       },
       {
-        "src": "/projects/casa-vs/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/769bcc34-52ed-4121-bd43-bd7abc009b91_rw_1920.jpg?h=39398763b2f6800e85499b0e67464aa1"
+        "src": "/projects/casa-pr/06.webp",
+        "alt": "Imagen 6 del proyecto CASA PR",
+        "cover": false
       },
       {
-        "src": "/projects/casa-vs/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9b1e62d8-b227-4c33-a2b0-c5f3d2766640.jpg?h=17a430e84e1cc07101a70348025e96ab"
-      },
-      {
-        "src": "/projects/casa-vs/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f5862ee9-0eef-44c6-ae5e-6848ca630f74.jpg?h=a40e69d36b837d919d153233e3aee358"
-      },
-      {
-        "src": "/projects/casa-vs/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a80eca6c-9ae2-43ef-9866-0035e21dde60_rw_1920.jpg?h=e8ec326d874970dda9efbee0f103b6d8"
-      },
-      {
-        "src": "/projects/casa-vs/10-gallery.jpg",
-        "alt": "Imagen 10 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b243f3c6-f83f-46de-ab24-0c478d3c4802_rw_1920.jpg?h=19369df1adf186287aea1568fed76332"
-      },
-      {
-        "src": "/projects/casa-vs/11-gallery.jpg",
-        "alt": "Imagen 11 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/31bacc58-652e-472c-ba9f-f900299d09b2.jpg?h=cd5ed8bf8831f6dcfb4be90043707392"
-      },
-      {
-        "src": "/projects/casa-vs/12-gallery.jpg",
-        "alt": "Imagen 12 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/142de9f9-b7cf-47b9-b426-ac7a3bc46b05.jpg?h=b24344f4ce980ef08f5cf76958cace37"
-      },
-      {
-        "src": "/projects/casa-vs/13-gallery.jpg",
-        "alt": "Imagen 13 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c8af116f-4d35-4bf1-896d-b56c8e0b70d1.jpg?h=a67cb8568352b36227f63bc0e4457d75"
-      },
-      {
-        "src": "/projects/casa-vs/14-gallery.jpg",
-        "alt": "Imagen 14 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/672500df-1858-4bef-988c-1e6f6a21dc04.jpg?h=1b9e8a87f703756d95eb6df42ddd7c33"
-      },
-      {
-        "src": "/projects/casa-vs/15-gallery.jpg",
-        "alt": "Imagen 15 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c14c038d-084a-4884-a0eb-07a6245ece56.jpg?h=653a00efb8b6edfce3533487c740bff8"
-      },
-      {
-        "src": "/projects/casa-vs/16-gallery.jpg",
-        "alt": "Imagen 16 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6ee8dc4c-83bf-442e-860a-ce5dea957dff.jpg?h=4c94aff2accd1d850986126f82fcfd3b"
-      },
-      {
-        "src": "/projects/casa-vs/17-gallery.jpg",
-        "alt": "Imagen 17 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b6edbdeb-f420-4378-829a-868280a2abd6.jpg?h=abc8617a8beb9b101871625ac958fffc"
-      },
-      {
-        "src": "/projects/casa-vs/18-gallery.jpg",
-        "alt": "Imagen 18 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7e31cc39-334a-44c7-b59c-cf3822ff5532.jpg?h=b47c0ede8620a2ba6fe7d43fcf089448"
-      },
-      {
-        "src": "/projects/casa-vs/19-gallery.jpg",
-        "alt": "Imagen 19 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/083d31dc-a6b3-4d44-871a-a853653ef5b4_rw_1920.jpg?h=3c0d29befd0a48fa66ca5e750e5ea289"
-      },
-      {
-        "src": "/projects/casa-vs/20-gallery.jpg",
-        "alt": "Imagen 20 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/08819dfa-286c-4820-9bca-65312755d078_rw_1920.jpg?h=eb0ea9f3c28db02cae97a33f7f50db49"
-      },
-      {
-        "src": "/projects/casa-vs/21-gallery.jpg",
-        "alt": "Imagen 21 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/09d2af52-bb31-4fc2-bf7b-ac562c70094a.jpg?h=b7d65683beb98ea71e0b1260dc901604"
-      },
-      {
-        "src": "/projects/casa-vs/22-gallery.jpg",
-        "alt": "Imagen 22 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fd011031-8ef2-422f-b28a-a4d92f7c9161.jpg?h=624796030b71e2355963f428201dfd3e"
-      },
-      {
-        "src": "/projects/casa-vs/23-gallery.jpg",
-        "alt": "Imagen 23 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3abab81b-2125-4aa0-a7bd-b460338383d2.jpg?h=a17aadc9a1fd57088376d6a6cda0694b"
-      },
-      {
-        "src": "/projects/casa-vs/24-gallery.jpg",
-        "alt": "Imagen 24 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/154271ce-faa8-4e1e-ad9f-060400ae753e_rw_1920.jpg?h=1053734f288fc19de73f5c2735ca626e"
-      },
-      {
-        "src": "/projects/casa-vs/25-gallery.jpg",
-        "alt": "Imagen 25 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b6f7a954-30ba-4cb0-aecf-7a492f70e122_rw_1920.jpg?h=1ae60a9c9be477203fdd3b8f33a76375"
-      },
-      {
-        "src": "/projects/casa-vs/26-gallery.jpg",
-        "alt": "Imagen 26 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d86f3937-0881-41c8-ab5d-9d5713c53fbf.jpg?h=a0512de93942994278900d76a22e565e"
-      },
-      {
-        "src": "/projects/casa-vs/27-gallery.jpg",
-        "alt": "Imagen 27 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b4cf9dcd-f687-4af8-8bcd-93bcccc312bf.jpg?h=451c23918538a5974f1948760638d5fa"
-      },
-      {
-        "src": "/projects/casa-vs/28-gallery.jpg",
-        "alt": "Imagen 28 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/106290a1-b689-4928-a4eb-32f74fa6ad70.jpg?h=3ed8a623c8ad39e75e81f05589d07723"
-      },
-      {
-        "src": "/projects/casa-vs/29-gallery.jpg",
-        "alt": "Imagen 29 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/85a4de28-27f2-49d4-aab4-0d385fb89aaf.jpg?h=4ac88c3ed1d283207ff4c27ea348ffd1"
-      },
-      {
-        "src": "/projects/casa-vs/30-gallery.jpg",
-        "alt": "Imagen 30 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/dfcd9795-2f20-4a7e-97ed-ea6138989d37.jpg?h=88b1468e61b186d8bc5d2ccb26cc1537"
-      },
-      {
-        "src": "/projects/casa-vs/31-gallery.jpg",
-        "alt": "Imagen 31 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c27f5b34-5ca2-476a-a5d6-e930a6791b0d.jpg?h=0dbdfd4e80233c3c0c85af39dd3aa1da"
-      },
-      {
-        "src": "/projects/casa-vs/32-gallery.jpg",
-        "alt": "Imagen 32 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/963513ce-5d77-4355-8473-45d38fc87a0e.jpg?h=f50fdf3f68e71cdb681b8c0c10ecdd34"
-      },
-      {
-        "src": "/projects/casa-vs/33-gallery.jpg",
-        "alt": "Imagen 33 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/5d2b3365-4ab2-47c9-b643-3239c7fae55a_rw_1920.jpg?h=a557a885f427843ac9a6d0f4b250b00a"
-      },
-      {
-        "src": "/projects/casa-vs/34-gallery.jpg",
-        "alt": "Imagen 34 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8f16ab9a-d384-42c4-ab11-730a931212d5_rw_1920.jpg?h=25f2e3519a57986eb1d801a530f28ca7"
-      },
-      {
-        "src": "/projects/casa-vs/35-gallery.jpg",
-        "alt": "Imagen 35 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bad70309-4956-4ba2-978b-35c0754cca80.jpg?h=f45ffce61f792e508e8acf751ab7517c"
-      },
-      {
-        "src": "/projects/casa-vs/36-gallery.jpg",
-        "alt": "Imagen 36 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/5603b357-a774-462c-bf32-851ec86cc001_rw_1920.jpg?h=6a3d37520e52d39ff6d3a40a63a58e39"
-      },
-      {
-        "src": "/projects/casa-vs/37-gallery.jpg",
-        "alt": "Imagen 37 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bcf552fd-cfa4-485d-a99e-5a2294e449d4_rw_1920.jpg?h=14981ff7cc823931bcee8b59eda5d3f3"
-      },
-      {
-        "src": "/projects/casa-vs/38-gallery.jpg",
-        "alt": "Imagen 38 del proyecto CASA VS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/11e5e661-8071-49d5-b2e4-c0a4b4aae848.jpg?h=84e3acda97779b029f3090ffee652aed"
+        "src": "/projects/casa-pr/07.jpg",
+        "alt": "Imagen 7 del proyecto CASA PR",
+        "cover": false
       }
     ]
   },
   {
-    "title": "• quem •",
-    "slug": "quem",
-    "category": "Interiorismo",
-    "year": "2025",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño interior", "Mobiliario a medida", "Visualización 3D"],
-    "excerpt": "• quem •​​​​​​​ Arq. Paula ValentArq. Florencia González",
-    "description": "• quem •​​​​​​​ Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/quem",
-    "images": [
-      {
-        "src": "/projects/quem/01-cover.jpg",
-        "alt": "Imagen principal del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4fa12207-c20a-4747-aac2-b5b17b5a29f5_carw_4x3x5120.jpg?h=aab233d70b0e21be71d9961ffb70ac40"
-      },
-      {
-        "src": "/projects/quem/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/68bd1aa6-0b60-485f-af7e-48c14a4c7ab5.jpg?h=9611b57a6783e97ed8866645b3db819a"
-      },
-      {
-        "src": "/projects/quem/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/91fc930a-8970-4b6f-9dbf-e76daf44a7db_rw_1920.jpg?h=37f547a286c38b157ec41b4e787847a1"
-      },
-      {
-        "src": "/projects/quem/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9b1fa91c-8edb-4046-8132-755694078830_rw_3840.jpg?h=18073a5d964b4e274339c9fc50bf11ba"
-      },
-      {
-        "src": "/projects/quem/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d8bd9ba5-8c2e-42bd-afdf-4e5b8fe167c0.jpg?h=0bfd65b61d929d7c6e412bc1d7e447ed"
-      },
-      {
-        "src": "/projects/quem/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8bf46f2c-b08f-4c86-9aaf-289f259de6d2.jpg?h=66929dbf56be5493af4cf60d3c4c68fd"
-      },
-      {
-        "src": "/projects/quem/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/dd31da4d-d4c2-45eb-885c-5039b31f7a95.jpg?h=2cfd42c7f651cc4baff3fde69b4eff04"
-      },
-      {
-        "src": "/projects/quem/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/cb344069-e85f-4b66-b280-2da40cd3fa1c_rw_3840.jpg?h=7395671b76c90ea0514711f45f34b0c5"
-      },
-      {
-        "src": "/projects/quem/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9fac69e0-c520-447b-8352-3d4d4f158909_rw_3840.jpg?h=37793ec67a27c2dfd7d2576f3b598092"
-      },
-      {
-        "src": "/projects/quem/10-gallery.jpg",
-        "alt": "Imagen 10 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/88809413-1b7e-4ecd-9d1e-94b22454af67.jpg?h=bfbab588472675480e31120850d9901d"
-      },
-      {
-        "src": "/projects/quem/11-gallery.jpg",
-        "alt": "Imagen 11 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8063364b-c27f-4ec4-9648-3b865881088e.jpg?h=7d1e46de250914a122c99658c3668d23"
-      },
-      {
-        "src": "/projects/quem/12-gallery.jpg",
-        "alt": "Imagen 12 del proyecto • quem •",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ba39c2ec-4a27-4242-adbf-0c4ce6d28057.jpg?h=5ab8601bb03f6ed08e538f5c9ca929f9"
-      }
-    ]
-  },
-  {
-    "title": "CASA JR",
-    "slug": "casa-jr",
-    "category": "Vivienda",
-    "year": "2025",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño arquitectónico", "Visualización 3D", "Documentación"],
-    "excerpt": "CASA JR Arq. Paula ValentArq. Florencia González",
-    "description": "CASA JR Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-jr",
-    "images": [
-      {
-        "src": "/projects/casa-jr/01-cover.jpg",
-        "alt": "Imagen principal del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e660ef55-8a05-408b-8c21-2e72cd6f6af2_carw_4x3x5120.jpg?h=c89b11a747590e614db3aa2dab97f5ae"
-      },
-      {
-        "src": "/projects/casa-jr/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/55827258-7129-451d-b0e3-9ea1c4afb0a3.jpg?h=b92aa8ca0d4130486414415113b08e92"
-      },
-      {
-        "src": "/projects/casa-jr/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/354d9ca5-5c1f-4af8-93a4-827bde036aa9.jpg?h=832084691541415076008c4abad2245d"
-      },
-      {
-        "src": "/projects/casa-jr/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c8d7d313-a5bd-48d9-b7ec-44374bff4efe.jpg?h=517c0e1920d56c2da284af0184ee7f6f"
-      },
-      {
-        "src": "/projects/casa-jr/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/baccd50f-2e30-4aa1-88be-38dd4cb3f482.jpg?h=472955ac10ad1b49ac591242253b47ba"
-      },
-      {
-        "src": "/projects/casa-jr/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9caf691f-5811-4cc9-a25c-29e4366fe108_rw_3840.jpg?h=d4d15d4f40b7bc986c8685975a09fad1"
-      },
-      {
-        "src": "/projects/casa-jr/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1d4849f7-a197-409d-9d83-7b4cad7ff683_rw_3840.jpg?h=f35993976ac1d4e2d4f5b9b56cfa8056"
-      },
-      {
-        "src": "/projects/casa-jr/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/cae7d050-ad4b-4ad8-9f78-19a3133f309b.jpg?h=845d7a5fb135ade6d926cfd518f962be"
-      },
-      {
-        "src": "/projects/casa-jr/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/5c70b6fe-50ef-4208-bcc8-0554fd7ded85.jpg?h=5319bdb2b2d45e03940e89a5b3a3381e"
-      },
-      {
-        "src": "/projects/casa-jr/10-gallery.jpg",
-        "alt": "Imagen 10 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c25b774d-f011-4c9e-83b9-fd433bba6872_rw_1920.jpg?h=8486f223c01b00f9428f21c81a4f3438"
-      },
-      {
-        "src": "/projects/casa-jr/11-gallery.jpg",
-        "alt": "Imagen 11 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3c3f2547-83ae-45a4-a3ad-4a0c5869e250_rw_1920.jpg?h=229cac44f1a020a291147f2cb1f2f45f"
-      },
-      {
-        "src": "/projects/casa-jr/12-gallery.jpg",
-        "alt": "Imagen 12 del proyecto CASA JR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7758355c-c84e-4a8f-bff8-2d95d066df55.jpg?h=be44dd55f0d323d948078ac9074fd831"
-      }
-    ]
-  },
-  {
-    "title": "VALLEJO CALZADOS",
-    "slug": "vallejo-calzados",
-    "category": "Comercial",
-    "year": "2025",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "VALLEJO CALZADOS Ing. Beto Quirga Arq. Florencia González",
-    "description": "VALLEJO CALZADOS Ing. Beto Quirga Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/vallejo-calzados",
-    "images": [
-      {
-        "src": "/projects/vallejo-calzados/01-cover.jpg",
-        "alt": "Imagen principal del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/40cd0b3e-cb27-4260-88b1-502e9741a569_carw_4x3x5120.jpg?h=0bcc86c59ffc4325d51365d89c15cd46"
-      },
-      {
-        "src": "/projects/vallejo-calzados/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/28edb6c9-f263-4d49-bb1a-66b58c7663a2.jpg?h=c29e44c139cee8f21440a7afbce5f4a8"
-      },
-      {
-        "src": "/projects/vallejo-calzados/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/080522f8-6f73-4f45-8fa4-553d651fb759.jpg?h=33b044a01e24360a4c3258faa5631666"
-      },
-      {
-        "src": "/projects/vallejo-calzados/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/87a93e95-fcf4-46ca-8188-97a5bb7ff74e.jpg?h=2da65d79a6dfae3c1633b18dbbeb4f5b"
-      },
-      {
-        "src": "/projects/vallejo-calzados/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8032d786-0310-40ac-8a21-1e94639267ba.jpg?h=44730eef6caefa1e60222ce774abf9a7"
-      },
-      {
-        "src": "/projects/vallejo-calzados/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/69a71ec9-a93d-483c-bff9-6999e17f8d37.jpg?h=5af097afc71bb49d1c8b5d0022719d55"
-      },
-      {
-        "src": "/projects/vallejo-calzados/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/431a3851-7df2-490c-ae18-0e89a1e59f71.jpg?h=6bfb40c08178270f35ddfb803761e49a"
-      },
-      {
-        "src": "/projects/vallejo-calzados/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/79aca7cc-af6b-41a2-bef4-8b439f0a580f.jpg?h=209d96927ae28d93103cb72a77d252f3"
-      },
-      {
-        "src": "/projects/vallejo-calzados/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/278149c9-7389-4534-a81c-4e6b8ae191ac.jpg?h=b918e4915c7bf2b3f6cf7ef111291098"
-      },
-      {
-        "src": "/projects/vallejo-calzados/10-gallery.jpg",
-        "alt": "Imagen 10 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3e132f38-3a99-4df6-8493-fb786b749ba9.jpg?h=3202c78cc92c29afa7756d63546d68ef"
-      },
-      {
-        "src": "/projects/vallejo-calzados/11-gallery.jpg",
-        "alt": "Imagen 11 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a9d4bb12-9814-43a5-8341-9429fd63a5cb.jpg?h=ca596973c17e693ae0e085bf8e885123"
-      },
-      {
-        "src": "/projects/vallejo-calzados/12-gallery.jpg",
-        "alt": "Imagen 12 del proyecto VALLEJO CALZADOS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/2f353ae4-ec42-4585-9e86-be719b5de17c.jpg?h=5c8fc5a085b74da4d001531a955173ae"
-      }
-    ]
-  },
-  {
-    "title": "ROCKET RAPI WASH",
+    "title": "Rocket Rapi Wash",
     "slug": "rocket-rapi-wash",
     "category": "Comercial",
     "year": "2025",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "ROCKET RAPI WASH Arq. Paula valent Arq. Florencia González",
-    "description": "ROCKET RAPI WASH Arq. Paula valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/rocket-rapi-wash",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/rocket-rapi-wash/01-cover.jpg",
+        "src": "/projects/rocket-rapi-wash/01.jpg",
         "alt": "Imagen principal del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/da4d04b7-726f-42ec-ad88-06fc8f867710_carw_4x3x5120.jpg?h=61c849d92bde8e850fe09152f10025bf"
+        "cover": true
       },
       {
-        "src": "/projects/rocket-rapi-wash/02-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/02.jpg",
         "alt": "Imagen 2 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bb16d8ff-7dde-49e4-a3f0-1fd4f7303ec2.jpg?h=5e5133ea1154aa7cf2fed8e5a3d087a7"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/03-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/03.webp",
         "alt": "Imagen 3 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e15c7571-9b96-4e62-86dd-3ae5cba2d3ee.jpg?h=bb4fb2852a65634d67ac0fd0c2c029b8"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/04-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/04.webp",
         "alt": "Imagen 4 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/2d21cc7b-023d-4141-a903-b9491cb34c1e_rw_3840.jpg?h=f007c8eee0660880ffab33d5e654c831"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/05-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/05.jpg",
         "alt": "Imagen 5 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b3c1f025-1abc-4b1a-a8ed-8ccda7ad05ee_rw_3840.jpg?h=0983bfd8d993fb44bd5bcf8237bb1ebd"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/06-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/06.jpg",
         "alt": "Imagen 6 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/020dcf9f-f17e-4012-9fcb-5c9b9a1170a6.jpg?h=da0ca8e14fab57111f50da08c4088240"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/07-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/07.jpg",
         "alt": "Imagen 7 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3a4c61df-6681-40e3-b5d8-6e62724414f4.jpg?h=275e96658d1bc46fadd3ab27bc8da641"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/08-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/08.webp",
         "alt": "Imagen 8 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6f846236-f0b7-471b-b8cd-34bac6427f57.jpg?h=64fcac034079a82c9690ee32b7c5e841"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/09-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/09.webp",
         "alt": "Imagen 9 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0405c581-c508-4675-9de6-79f5c5075cce_rw_3840.jpg?h=80d988ac049d0b88e029613e7dda3401"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/10-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/10.jpg",
         "alt": "Imagen 10 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/29fb8e58-00c8-4d7d-b161-af57fc18ef3a_rw_3840.jpg?h=d311ff285ff9f45be802232ec03e983f"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/11-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/11.jpg",
         "alt": "Imagen 11 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ef5e640c-300e-4792-9f49-6632042affe7.jpg?h=8d918c0a5eedcb5d618558fe0867fcd2"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/12-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/12.webp",
         "alt": "Imagen 12 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b73fdf7c-09a9-49bf-9879-92bd1df2cb4e.jpg?h=b257121c39469407664e24597eabcdd2"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/13-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/13.webp",
         "alt": "Imagen 13 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b7db4f18-adbc-47f6-99de-e2cf3a7b96a7_rw_3840.jpg?h=84d4eac89a04845eeff7b6ffffc1f623"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/14-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/14.jpg",
         "alt": "Imagen 14 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f6d983d5-822f-45a8-93f9-d0a562cce499_rw_3840.jpg?h=206015a18469064179a9068e3559de55"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/15-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/15.webp",
         "alt": "Imagen 15 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/17bbb0f5-0f3d-4894-a103-e62af7a17464.jpg?h=80e284676c5e11386d8afad6de5314ec"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/16-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/16.webp",
         "alt": "Imagen 16 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b3f88025-c84d-4d1e-8402-f31e849d8291_rw_3840.jpg?h=e45b14daf14612c0fc213b86c8aad05b"
+        "cover": false
       },
       {
-        "src": "/projects/rocket-rapi-wash/17-gallery.jpg",
+        "src": "/projects/rocket-rapi-wash/17.jpg",
         "alt": "Imagen 17 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c566f3b0-5711-49aa-821f-4c127ba54ae1_rw_3840.jpg?h=5bf439e746232facba391c93a4520f33"
-      },
-      {
-        "src": "/projects/rocket-rapi-wash/18-gallery.jpg",
-        "alt": "Imagen 18 del proyecto ROCKET RAPI WASH",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3f0ab1ff-e75c-4229-b203-4a5e10501ada.jpg?h=93db4b1975b6919a5d6bb4c347d0ef65"
+        "cover": false
       }
     ]
   },
   {
-    "title": "ALPINESTARS",
-    "slug": "alpinestars",
+    "title": "Millón",
+    "slug": "millon",
+    "category": "Interiorismo",
+    "year": "2025",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "home",
+    "images": [
+      {
+        "src": "/projects/millon/01.jpg",
+        "alt": "Imagen principal del proyecto MILLÓN",
+        "cover": true
+      },
+      {
+        "src": "/projects/millon/02.jpg",
+        "alt": "Imagen 2 del proyecto MILLÓN",
+        "cover": false
+      },
+      {
+        "src": "/projects/millon/03.jpg",
+        "alt": "Imagen 3 del proyecto MILLÓN",
+        "cover": false
+      },
+      {
+        "src": "/projects/millon/04.jpg",
+        "alt": "Imagen 4 del proyecto MILLÓN",
+        "cover": false
+      },
+      {
+        "src": "/projects/millon/05.jpg",
+        "alt": "Imagen 5 del proyecto MILLÓN",
+        "cover": false
+      },
+      {
+        "src": "/projects/millon/06.jpg",
+        "alt": "Imagen 6 del proyecto MILLÓN",
+        "cover": false
+      },
+      {
+        "src": "/projects/millon/07.png",
+        "alt": "Imagen 7 del proyecto MILLÓN",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "Casa VS",
+    "slug": "casa-vs",
+    "category": "Vivienda",
+    "year": "2025",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Diseño arquitectónico",
+      "Visualización 3D",
+      "Documentación"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
+    "images": [
+      {
+        "src": "/projects/casa-vs/01.jpg",
+        "alt": "Imagen principal del proyecto CASA VS",
+        "cover": true
+      },
+      {
+        "src": "/projects/casa-vs/02.jpg",
+        "alt": "Imagen 2 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/03.jpg",
+        "alt": "Imagen 3 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/04.jpg",
+        "alt": "Imagen 4 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/05.jpg",
+        "alt": "Imagen 5 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/06.jpg",
+        "alt": "Imagen 6 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/07.jpg",
+        "alt": "Imagen 7 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/08.jpg",
+        "alt": "Imagen 8 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/09.jpg",
+        "alt": "Imagen 9 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/10.jpg",
+        "alt": "Imagen 10 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/11.jpg",
+        "alt": "Imagen 11 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/12.jpg",
+        "alt": "Imagen 12 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/13.jpg",
+        "alt": "Imagen 13 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/14.jpg",
+        "alt": "Imagen 14 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/15.jpg",
+        "alt": "Imagen 15 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/16.jpg",
+        "alt": "Imagen 16 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/17.jpg",
+        "alt": "Imagen 17 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/18.jpg",
+        "alt": "Imagen 18 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/19.jpg",
+        "alt": "Imagen 19 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/20.jpg",
+        "alt": "Imagen 20 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/21.jpg",
+        "alt": "Imagen 21 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/22.jpg",
+        "alt": "Imagen 22 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/23.jpg",
+        "alt": "Imagen 23 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/24.jpg",
+        "alt": "Imagen 24 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/25.jpg",
+        "alt": "Imagen 25 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/26.jpg",
+        "alt": "Imagen 26 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/27.jpg",
+        "alt": "Imagen 27 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/28.jpg",
+        "alt": "Imagen 28 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/29.jpg",
+        "alt": "Imagen 29 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/30.jpg",
+        "alt": "Imagen 30 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/31.jpg",
+        "alt": "Imagen 31 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/32.jpg",
+        "alt": "Imagen 32 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/33.jpg",
+        "alt": "Imagen 33 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/34.jpg",
+        "alt": "Imagen 34 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/35.jpg",
+        "alt": "Imagen 35 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/36.jpg",
+        "alt": "Imagen 36 del proyecto CASA VS",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-vs/37.jpg",
+        "alt": "Imagen 37 del proyecto CASA VS",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "Casa",
+    "slug": "casa-jr",
+    "category": "Vivienda",
+    "year": "2025",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Diseño arquitectónico",
+      "Visualización 3D",
+      "Documentación"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
+    "images": [
+      {
+        "src": "/projects/casa-jr/01.jpg",
+        "alt": "Imagen principal del proyecto CASA JR",
+        "cover": true
+      },
+      {
+        "src": "/projects/casa-jr/02.jpg",
+        "alt": "Imagen 2 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/03.jpg",
+        "alt": "Imagen 3 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/04.jpg",
+        "alt": "Imagen 4 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/05.webp",
+        "alt": "Imagen 5 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/06.webp",
+        "alt": "Imagen 6 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/07.jpg",
+        "alt": "Imagen 7 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/08.jpg",
+        "alt": "Imagen 8 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/09.jpg",
+        "alt": "Imagen 9 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/10.jpg",
+        "alt": "Imagen 10 del proyecto CASA JR",
+        "cover": false
+      },
+      {
+        "src": "/projects/casa-jr/11.jpg",
+        "alt": "Imagen 11 del proyecto CASA JR",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "quem",
+    "slug": "quem",
     "category": "Comercial",
     "year": "2025",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "ALPINESTARS Ing. Beto QuirgaArq. Florencia González En esta oportunidad, trabajé en una tienda de ropa y equipos de protección para motos, optimizando la distribución...",
-    "description": "ALPINESTARS Ing. Beto QuirgaArq. Florencia González En esta oportunidad, trabajé en una tienda de ropa y equipos de protección para motos, optimizando la distribución y exhibición de los productos para mejorar la experiencia del cliente. En pocos m², una buena planificación permite lograr un espacio funcional y atractivo, resaltando la identidad de la marca.",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/alpinestars",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "home",
     "images": [
       {
-        "src": "/projects/alpinestars/01-cover.jpg",
-        "alt": "Imagen principal del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fc2bd011-4328-41a7-9125-22761b98c8f1_carw_4x3x5120.jpg?h=6e716bff7dd46958ea7872db8ccf662a"
+        "src": "/projects/quem/01.jpg",
+        "alt": "Imagen principal del proyecto • quem •",
+        "cover": true
       },
       {
-        "src": "/projects/alpinestars/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/75d0e3f5-ad2a-4b6a-8b04-8b616c2521fd.jpg?h=43d5ac340017118e82fa13b81a9c3fba"
+        "src": "/projects/quem/02.jpg",
+        "alt": "Imagen 2 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e814d102-d83c-4a78-aaf1-c600068afeac.jpg?h=7ee0511567d48bdc00b643306047a7a0"
+        "src": "/projects/quem/03.webp",
+        "alt": "Imagen 3 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/489956ae-5b39-4b3e-a510-1a019c016b31_rw_1920.jpg?h=82906e0db3c630721bdd4a2702edbffe"
+        "src": "/projects/quem/04.jpg",
+        "alt": "Imagen 4 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/2bbb58f2-fd9e-4b5c-ba56-db6b1c1171f9_rw_1920.jpg?h=aff6c40375b1a55e139488f6efcb10a8"
+        "src": "/projects/quem/05.jpg",
+        "alt": "Imagen 5 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/cfb22f8b-f49d-406e-a3e6-8ab538ab9872.jpg?h=b442c7953bf5880f5f0bd12f8b9213f4"
+        "src": "/projects/quem/06.jpg",
+        "alt": "Imagen 6 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7e1d8f12-377e-4094-8007-a8539f985194.jpg?h=0adeb3221e576c2f20dfe09907a85738"
+        "src": "/projects/quem/07.webp",
+        "alt": "Imagen 7 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/cabd0927-36c7-43de-ac51-6d176d20d057.jpg?h=b99e3eb82999017b04d34c5feb4f144d"
+        "src": "/projects/quem/08.webp",
+        "alt": "Imagen 8 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/2072fcfb-26a8-4a07-baec-c1df12358bef.jpg?h=e9858025473925819a360442dbf897b3"
+        "src": "/projects/quem/09.jpg",
+        "alt": "Imagen 9 del proyecto • quem •",
+        "cover": false
       },
       {
-        "src": "/projects/alpinestars/10-gallery.jpg",
-        "alt": "Imagen 10 del proyecto ALPINESTARS",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7608d333-4947-4ab6-a5ae-01c017553204.jpg?h=d90bcbd70600e9368cbda4744ee66015"
+        "src": "/projects/quem/10.jpg",
+        "alt": "Imagen 10 del proyecto • quem •",
+        "cover": false
+      },
+      {
+        "src": "/projects/quem/11.jpg",
+        "alt": "Imagen 11 del proyecto • quem •",
+        "cover": false
       }
     ]
   },
   {
-    "title": "CASA JM | VISUALIZACIÓN",
+    "title": "Vallejo Calzados",
+    "slug": "vallejo-calzados",
+    "category": "Comercial",
+    "year": "2025",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
+    "images": [
+      {
+        "src": "/projects/vallejo-calzados/01.jpg",
+        "alt": "Imagen principal del proyecto VALLEJO CALZADOS",
+        "cover": true
+      },
+      {
+        "src": "/projects/vallejo-calzados/02.jpg",
+        "alt": "Imagen 2 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/03.jpg",
+        "alt": "Imagen 3 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/04.jpg",
+        "alt": "Imagen 4 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/05.jpg",
+        "alt": "Imagen 5 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/06.jpg",
+        "alt": "Imagen 6 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/07.jpg",
+        "alt": "Imagen 7 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/08.jpg",
+        "alt": "Imagen 8 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/09.jpg",
+        "alt": "Imagen 9 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/10.jpg",
+        "alt": "Imagen 10 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      },
+      {
+        "src": "/projects/vallejo-calzados/11.jpg",
+        "alt": "Imagen 11 del proyecto VALLEJO CALZADOS",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "Alpinestars",
+    "slug": "alpinestars",
+    "category": "Visualización 3D",
+    "year": "2025",
+    "location": "San Juan, Argentina",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
+    "images": [
+      {
+        "src": "/projects/alpinestars/01.jpg",
+        "alt": "Imagen principal del proyecto ALPINESTARS",
+        "cover": true
+      },
+      {
+        "src": "/projects/alpinestars/02.jpg",
+        "alt": "Imagen 2 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/03.jpg",
+        "alt": "Imagen 3 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/04.jpg",
+        "alt": "Imagen 4 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/05.jpg",
+        "alt": "Imagen 5 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/06.jpg",
+        "alt": "Imagen 6 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/07.jpg",
+        "alt": "Imagen 7 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/08.jpg",
+        "alt": "Imagen 8 del proyecto ALPINESTARS",
+        "cover": false
+      },
+      {
+        "src": "/projects/alpinestars/09.jpg",
+        "alt": "Imagen 9 del proyecto ALPINESTARS",
+        "cover": false
+      }
+    ]
+  },
+  {
+    "title": "Casa JM",
     "slug": "casa-jm-visualizacion",
     "category": "Visualización 3D",
     "year": "2025",
-    "status": "Visualización 3D",
     "location": "San Juan, Argentina",
-    "services": ["Visualización 3D", "Renders", "Comunicación visual"],
-    "excerpt": "CASA JM Arq. Paula Valent Arq. Florencia González",
-    "description": "CASA JM Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-jm-visualizacion",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/casa-jm-visualizacion/01-cover.jpg",
+        "src": "/projects/casa-jm-visualizacion/01.jpg",
         "alt": "Imagen principal del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4d9106a5-63cc-45ab-9f33-31a545d9d86b_carw_4x3x5120.jpg?h=bca1f9806e5de1b59ebefebece15d048"
+        "cover": true
       },
       {
-        "src": "/projects/casa-jm-visualizacion/02-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/02.jpg",
         "alt": "Imagen 2 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1d95c5af-8392-4bad-ab34-f10a4802a064.jpg?h=aefee3a128c606bab9a1b5f0197c20d3"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/03-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/03.jpg",
         "alt": "Imagen 3 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/96ed4ba8-9a92-4e5c-b480-d7280fc700bb.jpg?h=01857769d579e74ad4b316edfba3de27"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/04-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/04.jpg",
         "alt": "Imagen 4 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/57edf679-8c73-4ad2-a0f4-ac0f1bcfaab5.jpg?h=dab79a531c64af924c36af500e69e386"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/05-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/05.jpg",
         "alt": "Imagen 5 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/cfd54e59-e511-4349-9804-c70e52b849ca.jpg?h=5243b2ae1db6562af72c45ae51a4178c"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/06-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/06.jpg",
         "alt": "Imagen 6 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f4a79c64-cda4-4345-b7bc-efa95b52cd13.jpg?h=edd3ce5bc82df8f9f2f4c92b0aadc37b"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/07-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/07.jpg",
         "alt": "Imagen 7 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e86e35df-41fb-4e3d-b7c5-7c0a1a6b1dbd.jpg?h=d4ad5b5184ed039630f07dc4856ab6a3"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/08-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/08.jpg",
         "alt": "Imagen 8 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/887c51d1-a6a5-425d-834d-cdef755a203b.jpg?h=929d4aa3c477e99996d6d15bbcf7be85"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/09-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/09.jpg",
         "alt": "Imagen 9 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/369aa714-d563-4a1f-bf39-7f9d8a530b76.jpg?h=7e510096f27289c96c82de440d840201"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/10-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/10.jpg",
         "alt": "Imagen 10 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c09d6f34-2f4e-473e-83d8-5e5b272d6edc.jpg?h=a5e12a87af18e6f7db3b8ebbc90877f0"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/11-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/11.jpg",
         "alt": "Imagen 11 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7031b814-7c1e-4295-b7ae-dce05a52918a.jpg?h=04abda284f738e6764a159bd1139159c"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/12-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/12.jpg",
         "alt": "Imagen 12 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a06457aa-a522-4791-bb94-792e967ed975.jpg?h=c9a2bcad366674c3edb985003e3dcb30"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/13-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/13.jpg",
         "alt": "Imagen 13 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ae58dfb2-d585-4a4f-8bb5-a69986a7052b.jpg?h=3a7f07081cc79cf388addb9bd62515a6"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/14-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/14.jpg",
         "alt": "Imagen 14 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/80fb3647-c2d9-449f-988f-e164184b40c9.jpg?h=6d6cf61ffa93b7e700ebddaa489285ad"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/15-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/15.jpg",
         "alt": "Imagen 15 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/303c6f6f-0dc1-4ede-a1f3-d4e5dbdd7bb0.jpg?h=fba5a2d7750ad0616c017f2b991ba10a"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/16-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/16.jpg",
         "alt": "Imagen 16 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/96b2aa80-b810-40f7-9055-56f563d18a50.jpg?h=a83a41c9f3eb866fbd7a52b451e44c62"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/17-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/17.jpg",
         "alt": "Imagen 17 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/2d76f13b-146b-4330-a7ad-1a1d09f7743d.jpg?h=6532c46c11d2531a566190e2ac84e105"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/18-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/18.jpg",
         "alt": "Imagen 18 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ff7f75ef-8ad4-4cca-9aa6-1ec2031d45c0_rw_1920.jpg?h=667d7bba9733f0a440b3e3cf0edd7dd6"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/19-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/19.jpg",
         "alt": "Imagen 19 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/73f1de5b-75a6-4a10-a7a0-f285d01304fe_rw_1920.jpg?h=5e35418acccebd068282fd8fcbe4127d"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/20-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/20.jpg",
         "alt": "Imagen 20 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/38e9225e-29cc-4455-aabe-48d13084c54d.jpg?h=f6782d9cf105e1976e165c278cbbd09f"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/21-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/21.jpg",
         "alt": "Imagen 21 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c7b1620c-5d4d-48c3-bc38-077a102af7c4.jpg?h=c328b0b0a661cbe56b865c7c0f405a25"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/22-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/22.jpg",
         "alt": "Imagen 22 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/53c545ee-7ed4-4645-ad9a-7dedd3005ce7.jpg?h=404909e0661a56277a793a77862ec96e"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/23-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/23.jpg",
         "alt": "Imagen 23 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/835b76cf-e0de-45ed-a0da-bc6c0b7c3c52.jpg?h=83d20b69ef79b069829e53ae5e806944"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/24-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/24.jpg",
         "alt": "Imagen 24 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/14b18e59-0d07-4c09-92b2-5517d32a976b.jpg?h=d2ae20b93d4254fc51808ec4dcd777b0"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/25-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/25.jpg",
         "alt": "Imagen 25 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/aab9d106-2ada-4428-aaac-124e0b34ea0f.jpg?h=0852a9ea74566cbfbca8a69b10d3ed5f"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/26-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/26.jpg",
         "alt": "Imagen 26 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/191f4665-8bb7-4f27-8e2a-af2a35eb1c00.jpg?h=d43f29c4828365e8cf0e69ba89c8f6d8"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/27-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/27.jpg",
         "alt": "Imagen 27 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/199422cb-f8ee-436c-b1d8-6b517369b037_rw_1920.jpg?h=684a8f7944ec6116239f7028eabd5721"
+        "cover": false
       },
       {
-        "src": "/projects/casa-jm-visualizacion/28-gallery.jpg",
+        "src": "/projects/casa-jm-visualizacion/28.jpg",
         "alt": "Imagen 28 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9480f2fc-38ff-487b-bfda-3cb019dc78d6_rw_1920.jpg?h=28889e83da9a409d2973284fa6f1d061"
-      },
-      {
-        "src": "/projects/casa-jm-visualizacion/29-gallery.jpg",
-        "alt": "Imagen 29 del proyecto CASA JM | VISUALIZACIÓN",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7f8e3cf2-fa54-4bcb-bda8-34fe1d7975c3.jpg?h=aaff7ccc67fe0b281d750f896d0ccd99"
+        "cover": false
       }
     ]
   },
   {
     "title": "Food Market",
     "slug": "food-market",
-    "category": "Comercial",
+    "category": "Visualización 3D",
     "year": "2024",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "FOOD MARKET Arq. Florencia González",
-    "description": "FOOD MARKET Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/food-market",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/food-market/01-cover.jpg",
+        "src": "/projects/food-market/01.jpg",
         "alt": "Imagen principal del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1b4b4784-b658-43d2-846d-b48cf7c6032e_carw_4x3x5120.jpg?h=96745ef06fe358dd3d7528e031e16b28"
+        "cover": true
       },
       {
-        "src": "/projects/food-market/02-gallery.jpg",
+        "src": "/projects/food-market/02.jpg",
         "alt": "Imagen 2 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b1517072-c766-4c32-8942-d3e490378a0a.jpg?h=ca3adec1ec168d045847eb8384b08019"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/03-gallery.jpg",
+        "src": "/projects/food-market/03.webp",
         "alt": "Imagen 3 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4b9c9af7-7d8b-4f5a-ad63-e0044f9a10a0.jpg?h=89fb14e534eadbfd0494a5aa5fd7ae35"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/04-gallery.jpg",
+        "src": "/projects/food-market/04.webp",
         "alt": "Imagen 4 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4261a797-ca21-44ce-bde9-a6dcb100f80e_rw_3840.jpg?h=a6b2aec000acc4b9e2599dba12afa74f"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/05-gallery.jpg",
+        "src": "/projects/food-market/05.jpg",
         "alt": "Imagen 5 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9102b737-8966-4272-8722-498f66125fd5_rw_3840.jpg?h=96924607b840c280628b519bab9434a2"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/06-gallery.jpg",
+        "src": "/projects/food-market/06.webp",
         "alt": "Imagen 6 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ceb0adb7-6a28-4b7b-af2f-142f9d001775.jpg?h=be5ba6111c70aa0d32bf2f1c4664491d"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/07-gallery.jpg",
+        "src": "/projects/food-market/07.webp",
         "alt": "Imagen 7 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1a9f4489-9753-49ed-92fd-55ae46fd56d4_rw_3840.jpg?h=31572232a4a1d299a93145247f3bba35"
+        "cover": false
       },
       {
-        "src": "/projects/food-market/08-gallery.jpg",
+        "src": "/projects/food-market/08.jpg",
         "alt": "Imagen 8 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a5228e28-e439-48a0-9e34-675254c4fd30_rw_3840.jpg?h=8d64a9396efdfd8130475a99bbcd8575"
-      },
-      {
-        "src": "/projects/food-market/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto Food Market",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a9b046e9-2ee6-4b2f-9384-d272d5124dc6.jpg?h=e242cdd0d9eb489e41c79a0bdb993a95"
+        "cover": false
       }
     ]
   },
   {
-    "title": "Mokka Café | Espacio San Juan",
+    "title": "Mokka Café - Espacio San Juan",
     "slug": "mokka-cafe-espacio-san-juan",
-    "category": "Comercial",
+    "category": "Visualización 3D",
     "year": "2024",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "MOKKA CAFÉ Espacio San Juan Arq. Paula Valent Arq. Florencia González",
-    "description": "MOKKA CAFÉ Espacio San Juan Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/mokka-cafe-espacio-san-juan",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/01-cover.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/01.png",
         "alt": "Imagen principal del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b03d2dbd-7a85-4945-a50b-6ceb288e4cc0_carw_4x3x5120.png?h=9055ba335405bf31f82d0bcb82a6d080"
+        "cover": true
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/02-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/02.webp",
         "alt": "Imagen 2 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/383f416a-c0a2-4f83-b3f8-13e2253a9004.png?h=3aeaa09f3d8fa272ccc5ff671b193761"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/03-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/03.webp",
         "alt": "Imagen 3 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a08b9909-03cd-4bb4-9d9c-7494d24784fc_rw_3840.png?h=f6d2bed05a4c81e8ac11a5dbfa880d7a"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/04-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/04.png",
         "alt": "Imagen 4 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/5c3d84e0-42fc-4155-94ac-9968f74e938c_rw_3840.png?h=6cb7133e3825b3879105bfdb7243f071"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/05-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/05.png",
         "alt": "Imagen 5 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b2332101-1302-4ab5-b694-941ac464c4c2.png?h=4b5d96dd2992c6ae4a932f4a98032e5c"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/06-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/06.webp",
         "alt": "Imagen 6 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/117c651d-6eb5-4638-966d-8d96f2ea6fb9.png?h=51fb1874c34f730833e14d8101132b78"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/07-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/07.webp",
         "alt": "Imagen 7 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/95521791-a069-414a-861f-b66b6b04fdf9_rw_3840.png?h=74ded4a0d1a5c5bc186da002f9670f0e"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/08-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/08.png",
         "alt": "Imagen 8 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a00ac289-35a8-4a08-b8c8-8c0618ed7e76_rw_3840.png?h=1d7fa5ae177a7aaab5517e649b61ed59"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/09-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/09.png",
         "alt": "Imagen 9 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/81325b59-86df-47f4-964c-e8e4b92e344c.png?h=dc56dc03b9cc0e6ece22b4b7d329e057"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/10-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/10.png",
         "alt": "Imagen 10 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d0a689b0-0a76-4e5c-8f70-4a1d7a246a39.png?h=5926aeb3c92cb74b9d7601500339313c"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/11-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/11.png",
         "alt": "Imagen 11 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/81c3bb25-7dba-4499-8eb7-56554ac013b5.png?h=d00fa36e3a559b8418deacf4703cbc6b"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-espacio-san-juan/12-gallery.png",
+        "src": "/projects/mokka-cafe-espacio-san-juan/12.png",
         "alt": "Imagen 12 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1588e4b0-2ee3-4fef-a26f-f1b9aac2a354.png?h=d64e6c88710222e73c8d010f63dfe51e"
-      },
-      {
-        "src": "/projects/mokka-cafe-espacio-san-juan/13-gallery.png",
-        "alt": "Imagen 13 del proyecto Mokka Café | Espacio San Juan",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c9096718-0e3a-4924-9269-f3e1c2c3abad.png?h=fd737319d78f9b64ae2d21a037639fd8"
+        "cover": false
       }
     ]
   },
   {
-    "title": "MOKKA CAFÉ - CHILE",
+    "title": "Mokka Café - Chile",
     "slug": "mokka-cafe-chile",
     "category": "Comercial",
     "year": "2024",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "MOKKA CAFÉ Arq. Paula ValentArq. Florencia González",
-    "description": "MOKKA CAFÉ Arq. Paula ValentArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/mokka-cafe-chile",
+    "location": "La Serena, Chile",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": "home",
     "images": [
       {
-        "src": "/projects/mokka-cafe-chile/01-cover.jpg",
+        "src": "/projects/mokka-cafe-chile/01.jpg",
         "alt": "Imagen principal del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9c65baf4-8a28-4898-a61d-b310f782d099_carw_4x3x5120.jpg?h=6bea0d3755db98edbde78c180e9d221b"
+        "cover": true
       },
       {
-        "src": "/projects/mokka-cafe-chile/02-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/02.webp",
         "alt": "Imagen 2 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3cceacae-7bfa-44ca-a208-6ad94b6c00d8.jpg?h=4f188c1f69402c30ce4e9fb2f6d84570"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/03-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/03.webp",
         "alt": "Imagen 3 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a1d79d66-9eb0-4fb4-9100-984c34f4497d_rw_3840.jpg?h=199dbe6c0ce02fefbc2819c990cd3f61"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/04-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/04.jpg",
         "alt": "Imagen 4 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/33b1cbf9-ea50-4cd6-8f34-29eb7fdb95a5_rw_3840.jpg?h=685695f1b6b4adda66a8dc371eef0c88"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/05-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/05.jpg",
         "alt": "Imagen 5 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e991744c-4b56-43c2-90ad-418de35110fc.jpg?h=1b5dc21bb7ea93cb1d2c4b4b7417c621"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/06-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/06.jpg",
         "alt": "Imagen 6 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/60fd31ae-dc7c-4424-8973-5e64b83f6b84.jpg?h=d723ade5a1c545a317c9df59fc3c047d"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/07-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/07.jpg",
         "alt": "Imagen 7 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a3d094c7-edff-4c9a-b989-a37236d52914.jpg?h=4ff4d999788694fec1ccd7ce44bd0204"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/08-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/08.jpg",
         "alt": "Imagen 8 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/882c9d3a-ce1b-41b5-ae26-c1a13ab82ce4.jpg?h=81740be24176892879b928d4691a80f5"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/09-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/09.webp",
         "alt": "Imagen 9 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/acfc1ac2-bea4-492f-aa0a-8e176504dd14.jpg?h=ceed5e5618cd781b80d81b88ef60802b"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/10-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/10.webp",
         "alt": "Imagen 10 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/30f96ce3-717e-4bed-adb7-df7811252162_rw_3840.jpg?h=50f6eebd6533d4e3ed9229e39e437925"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/11-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/11.jpg",
         "alt": "Imagen 11 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fdd8a726-0359-438a-a695-15d4db978237_rw_3840.jpg?h=b3527941fd97332bd91bb33a3f447925"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/12-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/12.jpg",
         "alt": "Imagen 12 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a086defb-6e5f-4494-a2d6-a5ecf52c77a2.jpg?h=2d78a91f8b2b4cca7f0e15ccf478043d"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/13-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/13.jpg",
         "alt": "Imagen 13 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4ee1cbda-3dc6-4ccf-8e06-dfeff5ba3b7e.jpg?h=f8c7dafb76917da49399130ae5d731f7"
+        "cover": false
       },
       {
-        "src": "/projects/mokka-cafe-chile/14-gallery.jpg",
+        "src": "/projects/mokka-cafe-chile/14.webp",
         "alt": "Imagen 14 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3f4239d8-c579-4f9e-94ca-9cabbaf4c1d9.jpg?h=85f88d6f85a0dcbd430de6f5bdc738be"
-      },
-      {
-        "src": "/projects/mokka-cafe-chile/15-gallery.png",
-        "alt": "Imagen 15 del proyecto MOKKA CAFÉ - CHILE",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/787cdc7a-e2e8-4488-a2c1-a50545fd55bd_rw_3840.png?h=421f838116dbd7788ee89d64de6d49fe"
+        "cover": false
       }
     ]
   },
   {
-    "title": "Exterior- 3D Visualización",
-    "slug": "exterior-3d-visualizacion",
+    "title": "Pórtico de acceso",
+    "slug": "portico-de-acceso",
     "category": "Visualización 3D",
     "year": "2024",
-    "status": "Visualización 3D",
     "location": "San Juan, Argentina",
-    "services": ["Visualización 3D", "Renders", "Comunicación visual"],
-    "excerpt": "PÓRTICO DE ACCESOArq. Flavia NogarolArq. Florencia González",
-    "description": "PÓRTICO DE ACCESOArq. Flavia NogarolArq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/exterior-3d-visualizacion",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/exterior-3d-visualizacion/01-cover.jpg",
+        "src": "/projects/exterior-3d-visualizacion/01.jpg",
         "alt": "Imagen principal del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4d8fceb3-ad0d-421e-9e68-003dd3db9752_carw_4x3x5120.jpg?h=98d4c638ef090e6011caebbf0f10313d"
+        "cover": true
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/02-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/02.jpg",
         "alt": "Imagen 2 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/812f86b2-0748-4817-83a6-f74403f0e36a.jpg?h=f437e49a836faa7ab8b9f64962736418"
+        "cover": false
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/03-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/03.jpg",
         "alt": "Imagen 3 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/19d776dd-ea97-403c-bf88-25468b8a5e01.jpg?h=69bbc3db41203f35caa22ce4a55ee9b3"
+        "cover": false
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/04-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/04.jpg",
         "alt": "Imagen 4 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d25e5621-b531-4319-a421-e252ed33da31.jpg?h=1e265de016b4b8791b1c5de04bb99f0b"
+        "cover": false
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/05-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/05.webp",
         "alt": "Imagen 5 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e29ae9b2-e74e-44c0-97af-b3d37c91c4d6.jpg?h=c95d66690172e07499d48d49272e633f"
+        "cover": false
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/06-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/06.webp",
         "alt": "Imagen 6 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/446dada5-9b6e-49ad-b36a-a7ea46a547cd_rw_1920.jpg?h=89373d0f3187359a2d7b04113fca6eb8"
+        "cover": false
       },
       {
-        "src": "/projects/exterior-3d-visualizacion/07-gallery.jpg",
+        "src": "/projects/exterior-3d-visualizacion/07.png",
         "alt": "Imagen 7 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6d335cc6-750e-417a-a52a-f5d0824e40f2_rw_1920.jpg?h=c7cf210bc5ccad4425fe76282b40f1b4"
-      },
-      {
-        "src": "/projects/exterior-3d-visualizacion/08-gallery.png",
-        "alt": "Imagen 8 del proyecto Exterior- 3D Visualización",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0302203a-a811-4562-86f7-e4b4d7da23a0.png?h=0c57a8abbd2b843832baf30d4c53c0c4"
+        "cover": false
       }
     ]
   },
@@ -1319,439 +1390,354 @@
     "slug": "espacio-de-juegos",
     "category": "Interiorismo",
     "year": "2023",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño interior", "Mobiliario a medida", "Visualización 3D"],
-    "excerpt": "SECTOR DE JUEGOS Arq. Florencia González Este espacio diseñado como el sector de niños se ubica dentro de una heladería, priorizando su seguridad y diversión mientras...",
-    "description": "SECTOR DE JUEGOS Arq. Florencia González Este espacio diseñado como el sector de niños se ubica dentro de una heladería, priorizando su seguridad y diversión mientras disfrutan de un helado. Para el diseño se tuvo en cuenta el método Montessori, que considera las medidas y el alcanse de los más pequeños. Se tuvo en cuenta la paleta de colores y el estilo de la heladería para mayor armonía. El área ofrece diversas actividades como lectura, pintura, escalada y correr. Tiene un piso de goma que brinda seguridad y comodidad, mientras que el mobiliario proporciona un espacio para que los padres vigilen a sus hijos y funcionalidad como almacenamiento para zapatos.",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/espacio-de-juegos",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/espacio-de-juegos/01-cover.png",
+        "src": "/projects/espacio-de-juegos/01.jpg",
         "alt": "Imagen principal del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fc36ed39-3c15-440a-9ad8-397a76ae4f9a_carw_4x3x5120.png?h=1757f475f87a51389e7ea202547a62a7"
+        "cover": true
       },
       {
-        "src": "/projects/espacio-de-juegos/02-gallery.jpg",
+        "src": "/projects/espacio-de-juegos/02.jpg",
         "alt": "Imagen 2 del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/51f22967-817c-4406-81fe-63d9362aa4ad.jpg?h=e4202338840b4c95ede242a14caef89f"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-de-juegos/03-gallery.jpg",
+        "src": "/projects/espacio-de-juegos/03.jpg",
         "alt": "Imagen 3 del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e72e7aa7-8110-4d5c-b641-81448ca4ff40.jpg?h=1198dbab60a57b525df5f627704eab83"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-de-juegos/04-gallery.jpg",
+        "src": "/projects/espacio-de-juegos/04.jpg",
         "alt": "Imagen 4 del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9bca4303-fa68-479c-bd7f-0e050f01b791_rw_1200.jpg?h=2e6ad101b9e0dbf2fc8773d846083a13"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-de-juegos/05-gallery.jpg",
+        "src": "/projects/espacio-de-juegos/05.jpg",
         "alt": "Imagen 5 del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0986145c-9dec-4a0c-96ec-c46aa515d603_rw_1920.jpg?h=ed57228de27b786e98fe7551966b401a"
-      },
-      {
-        "src": "/projects/espacio-de-juegos/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto Espacio de juegos",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/41a98e1b-1a69-43c6-8b44-8967f2efaa51.jpg?h=fe901f6d0b75ac725e9390ac09f16151"
+        "cover": false
       }
     ]
   },
   {
-    "title": "Diseño Cocina",
-    "slug": "diseno-cocina",
+    "title": "Cocina - Casa AR",
+    "slug": "cocina-casa-ar",
     "category": "Interiorismo",
     "year": "2023",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño interior", "Mobiliario a medida", "Visualización 3D"],
-    "excerpt": "DISEÑO COCINA Arq. Paula Valent Arq. Florencia González Se diseñó el espacio de la cocina considerando el estilo y la calidez de la casa. Se emplearon tonos claros, mu...",
-    "description": "DISEÑO COCINA Arq. Paula Valent Arq. Florencia González Se diseñó el espacio de la cocina considerando el estilo y la calidez de la casa. Se emplearon tonos claros, muros blancos y maderas para crear un contraste equilibrado. La paleta de colores se centró en tonos tierra y cálidos, logrando una armonía sutil en todo el ambiente. Se incorporó una isla con el anafe para optimizar el espacio, liberando la mesada y las alacenas para almacenamiento. Además, la cocina quedará equipada con un horno embutido y un microondas para mayor funcionalidad.",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/diseno-cocina",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/diseno-cocina/01-cover.jpg",
+        "src": "/projects/diseno-cocina/01.jpg",
         "alt": "Imagen principal del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0f43a60a-70b4-4bee-950e-7c7124ac25b7_carw_4x3x5120.jpeg?h=257166a541315ecb1d2c9008bcde1387"
+        "cover": true
       },
       {
-        "src": "/projects/diseno-cocina/02-gallery.jpg",
+        "src": "/projects/diseno-cocina/02.jpg",
         "alt": "Imagen 2 del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/82947704-9660-456f-9310-f8b60caf2205.jpeg?h=e51703fc718a7e08f4d29f9d4a3160a3"
+        "cover": false
       },
       {
-        "src": "/projects/diseno-cocina/03-gallery.jpg",
+        "src": "/projects/diseno-cocina/03.png",
         "alt": "Imagen 3 del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d839cac5-0c0b-4a93-8cfe-20dffbc42a84.jpeg?h=fcf490851b93566731f2353282df5f7a"
+        "cover": false
       },
       {
-        "src": "/projects/diseno-cocina/04-gallery.png",
+        "src": "/projects/diseno-cocina/04.png",
         "alt": "Imagen 4 del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d97a66b5-a2e5-4b06-ae9d-e1c421769892_rw_1920.png?h=2461321ca670b27be985cf9a97a15a36"
+        "cover": false
       },
       {
-        "src": "/projects/diseno-cocina/05-gallery.png",
+        "src": "/projects/diseno-cocina/05.jpg",
         "alt": "Imagen 5 del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/982262a3-a9f6-4075-962e-74a593599b23_rw_1920.png?h=ee85542a4162c68d8f7578dd3af8d399"
-      },
-      {
-        "src": "/projects/diseno-cocina/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto Diseño Cocina",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/20f269cf-eb23-45ed-886e-679ec74991e5.jpeg?h=fc95c70a272190056cdcf2c4861cf896"
+        "cover": false
       }
     ]
   },
   {
-    "title": "#Bathroom",
-    "slug": "bathroom",
-    "category": "Comercial",
+    "title": "Baño - Hotel Alkázar",
+    "slug": "bano-hotel-alkazar",
+    "category": "Interiorismo",
     "year": "2023",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "DISEÑO BAÑO BAR Arq. Paula Valent Arq. Florencia González",
-    "description": "DISEÑO BAÑO BAR Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/bathroom",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/bathroom/01-cover.jpg",
+        "src": "/projects/bathroom/01.jpg",
         "alt": "Imagen principal del proyecto #Bathroom",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fce66900-165f-4d1d-84f4-09a97742a218_carw_4x3x5120.jpeg?h=bcf1c06a7c088c9c159075966af11a67"
+        "cover": true
       },
       {
-        "src": "/projects/bathroom/02-gallery.jpg",
+        "src": "/projects/bathroom/02.jpg",
         "alt": "Imagen 2 del proyecto #Bathroom",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1fc3913d-2da8-44c6-a39c-67e8f23f47fd.jpeg?h=05be8a2ac78f28ca1ddb4cf21d992d99"
+        "cover": false
       },
       {
-        "src": "/projects/bathroom/03-gallery.jpg",
+        "src": "/projects/bathroom/03.jpg",
         "alt": "Imagen 3 del proyecto #Bathroom",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/79af4529-8318-46b4-abcc-f1368f104e42_rw_1200.jpeg?h=fe166799942410e221cca04d97c59e33"
+        "cover": false
       },
       {
-        "src": "/projects/bathroom/04-gallery.jpg",
+        "src": "/projects/bathroom/04.jpg",
         "alt": "Imagen 4 del proyecto #Bathroom",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/403b92d9-f2bd-4d89-8963-ae5d89ac53e7_rw_1920.jpeg?h=2879b59d2cce2d30b0873e1e26087dcf"
-      },
-      {
-        "src": "/projects/bathroom/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto #Bathroom",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/dcf4b1ab-7e88-4994-84c0-c021ea9c0aa2.jpeg?h=413713532ed7fcf64d1811dc234c9bf7"
+        "cover": false
       }
     ]
   },
   {
-    "title": "WINE BAR",
-    "slug": "wine-bar",
-    "category": "Comercial",
-    "year": "2022",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "VINITO Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "description": "VINITO Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/wine-bar",
-    "images": [
-      {
-        "src": "/projects/wine-bar/01-cover.jpg",
-        "alt": "Imagen principal del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e3528458-5b13-4e7b-9c98-f5d4ea4598a3_carw_4x3x5120.jpg?h=5f255a9adaf6ffafb0f7ee718de11247"
-      },
-      {
-        "src": "/projects/wine-bar/02-gallery.jpg",
-        "alt": "Imagen 2 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/21e12d84-9b53-402f-955f-69398b8a2bb1_rw_1200.jpg?h=20806be583bc7514b0e7bc4d439cced8"
-      },
-      {
-        "src": "/projects/wine-bar/03-gallery.jpg",
-        "alt": "Imagen 3 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/90053efe-8118-4185-999a-095601ea7e2c_rw_1920.jpg?h=2476e02094f42ee775ac56cac5728cde"
-      },
-      {
-        "src": "/projects/wine-bar/04-gallery.jpg",
-        "alt": "Imagen 4 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/56776f71-de51-4317-a544-d5bfa59532f8.jpg?h=462e61788ed3561fc43f9db62b84a367"
-      },
-      {
-        "src": "/projects/wine-bar/05-gallery.jpg",
-        "alt": "Imagen 5 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/099ac63e-3cd6-48d5-94d1-ff6c969d914d.jpg?h=73497a9ed5b13ecfe2d0b3963956870b"
-      },
-      {
-        "src": "/projects/wine-bar/06-gallery.jpg",
-        "alt": "Imagen 6 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/7e5dc97e-c336-468f-be3c-060150d9425c_rw_1920.jpg?h=61f0736326697e11310afc8f1a7c9baf"
-      },
-      {
-        "src": "/projects/wine-bar/07-gallery.jpg",
-        "alt": "Imagen 7 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d1a97606-f939-4a9f-bf38-e377973688f9_rw_1920.jpg?h=b30a69e73f3bfaed7d0fdea2500b5db3"
-      },
-      {
-        "src": "/projects/wine-bar/08-gallery.jpg",
-        "alt": "Imagen 8 del proyecto WINE BAR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e3434663-459e-45b8-b342-9fc3c09503c5.jpg?h=72f1fc3ea2ad0d05993757bd7f9463c2"
-      }
-    ]
-  },
-  {
-    "title": "MOKKA",
+    "title": "Mokka - Mendoza",
     "slug": "mokka",
     "category": "Comercial",
     "year": "2022",
-    "status": "Proyecto",
-    "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "MOKKA CAFE MERCADO ARGA Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "description": "MOKKA CAFE MERCADO ARGA Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/mokka",
+    "location": "Mendoza, Argentina",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/mokka/01-cover.png",
+        "src": "/projects/mokka/01.png",
         "alt": "Imagen principal del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e58c4c1f-94c6-4d70-9c23-cc64716b8d81_carw_4x3x5120.png?h=8aecbcb15babd0d5bf481e38fc379d30"
+        "cover": true
       },
       {
-        "src": "/projects/mokka/02-gallery.png",
+        "src": "/projects/mokka/02.png",
         "alt": "Imagen 2 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/19ca925d-ffa6-4514-8078-9b35b38f5ce1.png?h=141e13352dfac1d0d25b2f188ce1b9bf"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/03-gallery.png",
+        "src": "/projects/mokka/03.webp",
         "alt": "Imagen 3 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fb0d7f47-290e-476a-9f42-d618669f8d7b.png?h=422b46fac4bf786c30536e4f21609fb4"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/04-gallery.png",
+        "src": "/projects/mokka/04.webp",
         "alt": "Imagen 4 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/abf5153c-5918-4aef-ac0e-ac0f11700d9b_rw_3840.png?h=de25d964cdb954a056e087545ad29942"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/05-gallery.png",
+        "src": "/projects/mokka/05.png",
         "alt": "Imagen 5 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4752d28a-b242-4234-88ef-6fdd41a5a776_rw_1920.png?h=3a339b1298398bff52e1f60d085b96ff"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/06-gallery.png",
+        "src": "/projects/mokka/06.webp",
         "alt": "Imagen 6 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/3e2fde19-fbb1-4b2f-ab45-27dea97129bb.png?h=4c266bb7ab49640903432550ef68663a"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/07-gallery.png",
+        "src": "/projects/mokka/07.webp",
         "alt": "Imagen 7 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/38f736d2-0f25-418d-ab56-38d907487621_rw_3840.png?h=e1a9501fc038282b3b36ed7b55f2e634"
+        "cover": false
       },
       {
-        "src": "/projects/mokka/08-gallery.jpg",
+        "src": "/projects/mokka/08.png",
         "alt": "Imagen 8 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/38324065-82c1-4930-ac68-39ec79585877_rw_3840.jpg?h=6a7123adf52f02f0cd4572968ade4969"
-      },
-      {
-        "src": "/projects/mokka/09-gallery.png",
-        "alt": "Imagen 9 del proyecto MOKKA",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/77226405-96ac-4194-b1e8-1cedb88d16e3.png?h=7ac8322cd6de290579917893231d45f8"
+        "cover": false
       }
     ]
   },
   {
-    "title": "ESPACIO M",
+    "title": "Espacio M",
     "slug": "espacio-m",
     "category": "Interiorismo",
     "year": "2022",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño interior", "Mobiliario a medida", "Visualización 3D"],
-    "excerpt": "ESPACIO M Arq. Paula valent Arq. Florencia González",
-    "description": "ESPACIO M Arq. Paula valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/espacio-m",
+    "services": [
+      "Diseño interior",
+      "Mobiliario a medida",
+      "Visualización 3D"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/espacio-m/01-cover.png",
+        "src": "/projects/espacio-m/01.png",
         "alt": "Imagen principal del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/37ab7302-dfa5-43a1-a197-2d9804ce94a9_carw_4x3x5120.png?h=16ce3019eba28f4011b671e90f9f1129"
+        "cover": true
       },
       {
-        "src": "/projects/espacio-m/02-gallery.png",
+        "src": "/projects/espacio-m/02.webp",
         "alt": "Imagen 2 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/9ab55c48-4e7f-4cb1-9244-5d27a36b3744.png?h=6e7998ab8c115e90a51551a68d1f6f88"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/03-gallery.png",
+        "src": "/projects/espacio-m/03.png",
         "alt": "Imagen 3 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ff978044-41ea-4ee2-9e03-62f138f0e70b_rw_3840.png?h=898184f6e6e413c3e894b71029ec319a"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/04-gallery.png",
+        "src": "/projects/espacio-m/04.png",
         "alt": "Imagen 4 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/41f33a86-4c8a-4729-93e1-120050f569c3_rw_1920.png?h=d6313d6cb17f9c9afc30a827503344c5"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/05-gallery.png",
+        "src": "/projects/espacio-m/05.png",
         "alt": "Imagen 5 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/76f003a7-cf06-4f1c-8a1e-c575405e0165.png?h=a6df3332112464fbe3acfd4c09cca424"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/06-gallery.png",
+        "src": "/projects/espacio-m/06.webp",
         "alt": "Imagen 6 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/06ae52c6-458f-4c10-af4f-0abe80b96681.png?h=d44c3e7baaecc7087be1cf9553ee1696"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/07-gallery.png",
+        "src": "/projects/espacio-m/07.png",
         "alt": "Imagen 7 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/70d833df-7b13-4bfa-8eac-8ea5c6211940_rw_3840.png?h=957833fa83b6d347fa60e1d5422fc2ac"
+        "cover": false
       },
       {
-        "src": "/projects/espacio-m/08-gallery.png",
+        "src": "/projects/espacio-m/08.png",
         "alt": "Imagen 8 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/a717fad9-7842-4662-a7a5-099bf7d99bcb_rw_1920.png?h=2874ea2c8f60bd9fb6faaeef8f37069f"
-      },
-      {
-        "src": "/projects/espacio-m/09-gallery.png",
-        "alt": "Imagen 9 del proyecto ESPACIO M",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/e980938c-cb33-47e8-9925-ecc7f77afcf8.png?h=950ec4091e08fc2507a4d5ea7b0a3b79"
+        "cover": false
       }
     ]
   },
   {
-    "title": "CAFÉ DEL PATIO",
+    "title": "Café del Patio",
     "slug": "cafe-del-patio",
     "category": "Comercial",
     "year": "2022",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "CAFÉ DEL PATIO Proyecto TOLK Laboratorio Diseño Arq. Florencia González En el diseño de este café, se consideró su ubicación dentro de un patio de comidas compartido c...",
-    "description": "CAFÉ DEL PATIO Proyecto TOLK Laboratorio Diseño Arq. Florencia González En el diseño de este café, se consideró su ubicación dentro de un patio de comidas compartido con otros locales gastronómicos. Se hizo hincapié en resaltar la identidad y los colores de la marca para crear un ambiente diferente que lo posicionara como un auténtico \"Café del patio\". Además, se priorizó la reorganización de la cocina para mejorar su funcionalidad, dado que el espacio disponible era limitado y necesitaba adaptarse a la dinámica de los pedidos tanto de la cafetería como de la panadería.",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/cafe-del-patio",
+    "services": [
+      "Diseño comercial",
+      "Aplicación de marca",
+      "Mobiliario"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/cafe-del-patio/01-cover.png",
+        "src": "/projects/cafe-del-patio/01.png",
         "alt": "Imagen principal del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/20422d75-cb54-4703-898e-ba1ba2c0d3c3_carw_4x3x5120.png?h=43681e272aa0a8b5de340ea3cff93e55"
+        "cover": true
       },
       {
-        "src": "/projects/cafe-del-patio/02-gallery.png",
+        "src": "/projects/cafe-del-patio/02.png",
         "alt": "Imagen 2 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/ff86dad5-6004-4347-a74c-3038b8de6e4d.png?h=150c723ea7e46ea9328dc95cd22e2143"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/03-gallery.png",
+        "src": "/projects/cafe-del-patio/03.webp",
         "alt": "Imagen 3 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/4f3495d9-d3c1-48dd-a0fb-0ef2f6a20028.png?h=d230af8e587c39dba987987ad8f37ec9"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/04-gallery.png",
+        "src": "/projects/cafe-del-patio/04.png",
         "alt": "Imagen 4 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/db201147-3e34-48dd-ab86-cc48b1f1892a_rw_3840.png?h=ac8bd3acbc4c1d50d86d180f53ada9f4"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/05-gallery.png",
+        "src": "/projects/cafe-del-patio/05.png",
         "alt": "Imagen 5 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/02744bc9-a139-4b50-9c2f-8248954ac2d9_rw_1200.png?h=b636b40f1eb568a6016b916d5353cd26"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/06-gallery.png",
+        "src": "/projects/cafe-del-patio/06.png",
         "alt": "Imagen 6 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/022f3ef5-804a-4281-a5d2-939b130ffbcc_rw_1920.png?h=b8a4b2c75ea8d2a3f343b21f16aa5bcb"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/07-gallery.png",
+        "src": "/projects/cafe-del-patio/07.png",
         "alt": "Imagen 7 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/343398ef-0cf3-4d4a-b3e8-c39bd3c3b1db.png?h=f080f7298c510067166ad3c83a64f691"
+        "cover": false
       },
       {
-        "src": "/projects/cafe-del-patio/08-gallery.png",
+        "src": "/projects/cafe-del-patio/08.webp",
         "alt": "Imagen 8 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b7d8dd8c-6ded-425d-9fc5-3074c362f480_rw_1920.png?h=8afd2c9ee7fca3679829393163fd762c"
-      },
-      {
-        "src": "/projects/cafe-del-patio/09-gallery.png",
-        "alt": "Imagen 9 del proyecto CAFÉ DEL PATIO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c0e97fac-9df8-4ab3-a0f4-2da50b0ab4f8_rw_3840.png?h=84828f9dc7cf2a952ec5b2fb520b6da7"
+        "cover": false
       }
     ]
   },
   {
-    "title": "BISTREA CAFETTO",
+    "title": "Bistrea Cafetto",
     "slug": "bistrea-cafetto",
-    "category": "Comercial",
+    "category": "Visualización 3D",
     "year": "2021",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño comercial", "Aplicación de marca", "Mobiliario"],
-    "excerpt": "BISTREA CAFETTO Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "description": "BISTREA CAFETTO Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/bistrea-cafetto",
+    "services": [
+      "Visualización 3D",
+      "Renders",
+      "Comunicación visual"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/bistrea-cafetto/01-cover.jpg",
+        "src": "/projects/bistrea-cafetto/01.jpg",
         "alt": "Imagen principal del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/01d3b1ea-e455-400e-87d0-4ef8eb0ece24_carw_4x3x5120.jpg?h=24a683cf46b71ebcd5972ade5ce72f11"
+        "cover": true
       },
       {
-        "src": "/projects/bistrea-cafetto/02-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/02.jpg",
         "alt": "Imagen 2 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/081d45d6-b35b-4f43-867d-5356df8cb147.jpg?h=c15856f5e35e1a46aec67a211f335c77"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/03-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/03.jpg",
         "alt": "Imagen 3 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1125171f-9dcf-4615-9761-45b296114f3a.jpg?h=21da339726ff8797f7e4152c469caf0a"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/04-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/04.jpg",
         "alt": "Imagen 4 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bcffc756-e89d-4833-8244-6a345e1e963b_rw_1920.jpg?h=e9056ec115bca6c496ace32cef079abd"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/05-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/05.jpg",
         "alt": "Imagen 5 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/b9db5cd8-7d86-4b4f-9e07-6839f8a62065_rw_1200.jpg?h=641971b90a6d58183c4dcd292be40057"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/06-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/06.jpg",
         "alt": "Imagen 6 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/69f170ff-6c78-446a-9959-e95311b888ff.jpg?h=b567b0f6a990684dd06919fa7d00b16e"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/07-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/07.jpg",
         "alt": "Imagen 7 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/8139902b-fd4d-42c1-956c-837452d6aef1_rw_1920.jpg?h=d314736517ba753d093efe5eabfed135"
+        "cover": false
       },
       {
-        "src": "/projects/bistrea-cafetto/08-gallery.jpg",
+        "src": "/projects/bistrea-cafetto/08.jpg",
         "alt": "Imagen 8 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d3ac7f08-b4d1-4775-b867-1c93d63c8eea_rw_1200.jpg?h=0a7082f5a9071292a887a10c990d6302"
-      },
-      {
-        "src": "/projects/bistrea-cafetto/09-gallery.jpg",
-        "alt": "Imagen 9 del proyecto BISTREA CAFETTO",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/c8fdaa5e-48a6-45a6-be47-220b4adbf8b2.jpg?h=c64d447deb264f9d7f3250dfaf275c44"
+        "cover": false
       }
     ]
   },
@@ -1760,90 +1746,86 @@
     "slug": "casa-ar",
     "category": "Vivienda",
     "year": "2021",
-    "status": "Proyecto",
     "location": "San Juan, Argentina",
-    "services": ["Diseño arquitectónico", "Visualización 3D", "Documentación"],
-    "excerpt": "CASA AR Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "description": "CASA AR Proyecto TOLK Laboratorio Diseño Arq. Paula Valent Arq. Florencia González",
-    "challenge": "El punto de partida fue ordenar necesidades, usos y criterios espaciales para comunicar el proyecto con claridad.",
-    "solution": "La propuesta desarrolla una respuesta de diseño apoyada en distribución, materialidad, escala e imágenes de presentación.",
-    "result": "El material documenta el estado del proyecto y sirve como base para evaluación, comunicación y próximos ajustes.",
-    "sourceUrl": "https://gonzalezflorencialuz.myportfolio.com/casa-ar",
+    "services": [
+      "Diseño arquitectónico",
+      "Visualización 3D",
+      "Documentación"
+    ],
+    "challenge": "",
+    "solution": "",
+    "result": "",
+    "feature": null,
     "images": [
       {
-        "src": "/projects/casa-ar/01-cover.png",
+        "src": "/projects/casa-ar/01.png",
         "alt": "Imagen principal del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1e471369-bf69-4060-b501-b5b459f29b0f_carw_4x3x5120.png?h=b853bb58ab00d3343f36025a48bb84dc"
+        "cover": true
       },
       {
-        "src": "/projects/casa-ar/02-gallery.png",
+        "src": "/projects/casa-ar/02.png",
         "alt": "Imagen 2 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/89a6d472-01bc-4323-9338-e27209d78579_rw_1920.png?h=ad4e3347249480bca392aef4541568f1"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/03-gallery.png",
+        "src": "/projects/casa-ar/03.png",
         "alt": "Imagen 3 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/920c643e-d93a-4a49-8ec8-5471dcd8cbc4.png?h=c3fc1f576695e4e909a2be189eee0495"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/04-gallery.png",
+        "src": "/projects/casa-ar/04.png",
         "alt": "Imagen 4 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/fae13374-1ba2-4da2-b996-5ace27661a8a.png?h=9b53891f1bcac327dd8e3fd1052cb73b"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/05-gallery.png",
+        "src": "/projects/casa-ar/05.png",
         "alt": "Imagen 5 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/d29e1edc-ffa4-4723-8b8f-c6357b3cef9a_rw_1920.png?h=5c0959a242b504304957fb8eb479ce3c"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/06-gallery.png",
+        "src": "/projects/casa-ar/06.png",
         "alt": "Imagen 6 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/1f644928-acab-49a4-b4cf-08ea65192ba4_rw_1920.png?h=f91c7b23cd1f8c1939c45314f33a8498"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/07-gallery.png",
+        "src": "/projects/casa-ar/07.png",
         "alt": "Imagen 7 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/bb3434e7-f119-4406-8216-865f24f21f77.png?h=6571f891485702e7830961018d7c313e"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/08-gallery.png",
+        "src": "/projects/casa-ar/08.png",
         "alt": "Imagen 8 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/f96af225-5f96-438a-b50b-07c79565b4e7.png?h=c9fdae29f3877f60774ffd047f166a06"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/09-gallery.png",
+        "src": "/projects/casa-ar/09.png",
         "alt": "Imagen 9 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/0a4d6ed1-a1cd-4beb-b144-a917a7208393.png?h=9d764f71b5c0cd32cace389ebea7ec8b"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/10-gallery.png",
+        "src": "/projects/casa-ar/10.png",
         "alt": "Imagen 10 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/667efda9-e44a-427d-b4a5-989c0dbe7671_rw_1920.png?h=28073713544820a7dc63229152592c1a"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/11-gallery.png",
+        "src": "/projects/casa-ar/11.png",
         "alt": "Imagen 11 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/12400964-4d12-46c8-bc0b-7a988b97e474_rw_1920.png?h=e719811112ef7cb928d644a402c8dd24"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/12-gallery.png",
+        "src": "/projects/casa-ar/12.png",
         "alt": "Imagen 12 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/6c83a164-dc32-48ff-99e0-4493f51ac67e.png?h=365d28112a2c4a09fcfe1e50eeeb4ba4"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/13-gallery.png",
+        "src": "/projects/casa-ar/13.jpg",
         "alt": "Imagen 13 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/5b8fcddf-bc74-4c10-92d1-e587e82e75d5_rw_1920.png?h=7687cf8829c31408da611959e6af3212"
+        "cover": false
       },
       {
-        "src": "/projects/casa-ar/14-gallery.jpg",
+        "src": "/projects/casa-ar/14.png",
         "alt": "Imagen 14 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/20923447-fdaa-409a-920c-ea8d3b862498_rw_1920.jpg?h=b921e9484df9b7cda8e21dc2793e6822"
-      },
-      {
-        "src": "/projects/casa-ar/15-gallery.png",
-        "alt": "Imagen 15 del proyecto Casa AR",
-        "originalUrl": "https://cdn.myportfolio.com/ba5edd9c-9cb0-4f25-b239-e6fc402872d6/925f6dfa-88fc-4063-89d2-ca3e6125c9c9.png?h=4346f8fbbcd5a656dc6acfb226c6ab5e"
+        "cover": false
       }
     ]
   }

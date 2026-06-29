@@ -7,17 +7,12 @@ export type ProjectCategory =
   | "Mobiliario"
   | "Visualización 3D";
 
-export type ProjectStatus =
-  | "Obra finalizada"
-  | "Proyecto"
-  | "En obra"
-  | "Visualización 3D"
-  | "Dirección de obra";
+export type ProjectFeature = "hero" | "home" | null;
 
 export type ProjectImage = {
   src: string;
   alt: string;
-  originalUrl?: string;
+  cover: boolean;
 };
 
 export type Project = {
@@ -25,21 +20,28 @@ export type Project = {
   slug: string;
   category: ProjectCategory;
   year: string;
-  status: ProjectStatus;
   location: string;
   services: string[];
-  excerpt: string;
-  description: string;
-  challenge?: string;
-  solution?: string;
-  result?: string;
-  sourceUrl?: string;
+  challenge: string;
+  solution: string;
+  result: string;
+  feature: ProjectFeature;
   images: ProjectImage[];
 };
 
 export const projects = scrapedProjects as Project[];
 
-export const featuredProjects = projects.slice(0, 4);
+export const heroProject = projects.find(
+  (project) => project.feature === "hero",
+);
+
+export const featuredProjects = projects.filter(
+  (project) => project.feature === "home",
+);
+
+export function getProjectCover(project: Project) {
+  return project.images.find((image) => image.cover) ?? project.images[0];
+}
 
 export function getProjectBySlug(slug: string) {
   return projects.find((project) => project.slug === slug);

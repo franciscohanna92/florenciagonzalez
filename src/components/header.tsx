@@ -4,6 +4,7 @@ import { MenuIcon, XIcon } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { Container } from "@/components/container";
 import { Button } from "@/components/ui/button";
 import { navItems, siteConfig } from "@/lib/content";
 import { cn } from "@/lib/utils";
@@ -45,13 +46,12 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-40 bg-transparent">
       <div
         className={cn(
-          "relative bg-background/58 backdrop-blur-2xl backdrop-saturate-150 transition-shadow duration-300 ease-out",
-          (isScrolled || isMenuOpen) &&
-            "shadow-[0_18px_60px_rgba(45,41,38,0.14)]",
+          "relative border-transparent border-b bg-background/58 backdrop-blur-2xl backdrop-saturate-150 transition-colors duration-300 ease-out",
+          (isScrolled || isMenuOpen) && "border-border/50",
         )}
         ref={headerContainerRef}
       >
-        <div className="flex items-center justify-between gap-x-5 px-5 py-3 sm:px-8 lg:px-10">
+        <Container className="flex items-center justify-between gap-x-5 py-3">
           <Link
             className="group inline-flex max-w-max flex-col text-foreground"
             href="/"
@@ -96,7 +96,7 @@ export function Header() {
               <MenuIcon aria-hidden="true" />
             )}
           </Button>
-        </div>
+        </Container>
 
         <AnimatePresence>
           {isMenuOpen ? (
