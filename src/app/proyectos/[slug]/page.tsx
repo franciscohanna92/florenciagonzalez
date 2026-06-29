@@ -30,9 +30,22 @@ export async function generateMetadata({
     };
   }
 
+  const title = `${project.title} | Proyectos`;
+  const description = `${project.title}, proyecto de ${project.category.toLowerCase()} en ${project.location}.`;
+
   return {
-    title: `${project.title} | Proyectos`,
-    description: `${project.title}, proyecto de ${project.category.toLowerCase()} en ${project.location}.`,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 

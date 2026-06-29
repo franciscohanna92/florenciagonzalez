@@ -2,17 +2,22 @@ import type { Metadata } from "next";
 import {
   Cormorant_Garamond,
   Geist_Mono,
+  Instrument_Serif,
+  Inter,
   Manrope,
-  Space_Grotesk,
-  Roboto_Slab, Instrument_Serif, Inter } from "next/font/google";
+} from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
-const instrumentSerifHeading = Instrument_Serif({subsets:['latin'],weight:['400'],variable:'--font-heading'});
+const instrumentSerifHeading = Instrument_Serif({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-heading",
+});
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -31,6 +36,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      (process.env.VERCEL_PROJECT_PRODUCTION_URL
+        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+        : process.env.VERCEL_URL
+          ? `https://${process.env.VERCEL_URL}`
+          : "http://localhost:3000"),
+  ),
   title: {
     default: "Florencia González | Arquitectura e interiores",
     template: "%s | Florencia González",
