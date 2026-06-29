@@ -1,5 +1,3 @@
-import { readFile } from "node:fs/promises";
-import { extname, join } from "node:path";
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
 import { getProjectBySlug, getProjectCover } from "@/data/projects";
@@ -15,15 +13,14 @@ type ProjectOpenGraphImageProps = {
   params: Promise<{ slug: string }>;
 };
 
-function getImageContentType(pathname: string) {
-  switch (extname(pathname).toLowerCase()) {
-    case ".png":
-      return "image/png";
-    case ".webp":
-      return "image/webp";
-    default:
-      return "image/jpeg";
-  }
+function getSiteUrl() {
+  const vercelHost =
+    process.env.VERCEL_URL ?? process.env.VERCEL_PROJECT_PRODUCTION_URL;
+
+  return (
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (vercelHost ? `https://${vercelHost}` : "http://localhost:3000")
+  );
 }
 
 export default async function ProjectOpenGraphImage({
@@ -42,9 +39,7 @@ export default async function ProjectOpenGraphImage({
     notFound();
   }
 
-  const coverPath = join(process.cwd(), "public", cover.src.replace(/^\//, ""));
-  const coverData = await readFile(coverPath);
-  const coverSrc = `data:${getImageContentType(cover.src)};base64,${coverData.toString("base64")}`;
+  const coverSrc = new URL(cover.src, getSiteUrl()).toString();
 
   return new ImageResponse(
     <div
