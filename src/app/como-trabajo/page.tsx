@@ -15,7 +15,7 @@ export const metadata = createPageMetadata({
 export default function ComoTrabajoPage() {
   return (
     <>
-      <Container as="section" className="py-12 md:py-20">
+      <Container as="section" className="pt-12 pb-6 md:pt-20 md:pb-8">
         <SectionHeader
           eyebrow="Proceso"
           intro="Un proceso claro permite ordenar decisiones, anticipar necesidades y entender qué se desarrolla en cada etapa. El recorrido se adapta al alcance real de tu proyecto."
@@ -24,7 +24,7 @@ export default function ComoTrabajoPage() {
         />
       </Container>
 
-      <section className="border-border border-y bg-muted py-16 md:py-24">
+      <section className="py-16 md:py-24">
         <Container className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
           <div>
             <h2 className="font-heading text-4xl leading-tight text-foreground sm:text-5xl">
