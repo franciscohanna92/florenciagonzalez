@@ -7,9 +7,15 @@ import { getProjectCover, type Project } from "@/data/projects";
 
 type ProjectCardProps = {
   project: Project;
+  headingLevel?: "h2" | "h3";
+  sizes?: string;
 };
 
-export function ProjectCard({ project }: ProjectCardProps) {
+export function ProjectCard({
+  project,
+  headingLevel: Heading = "h3",
+  sizes = "(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw",
+}: ProjectCardProps) {
   const cover = getProjectCover(project);
 
   if (!cover) {
@@ -32,13 +38,19 @@ export function ProjectCard({ project }: ProjectCardProps) {
           alt={cover.alt}
           className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
           fill
-          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+          sizes={sizes}
           src={cover.src}
         />
         <div className="absolute inset-x-0 bottom-0 border-background/40 border-t bg-background/60 p-5 text-foreground backdrop-blur-xl backdrop-saturate-150 sm:p-6">
-          <h3 className="font-heading text-3xl leading-tight">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+            {project.category} · {project.year}
+          </p>
+          <Heading className="font-heading text-3xl leading-tight">
             {project.title}
-          </h3>
+          </Heading>
+          <p className="mt-2 text-sm text-muted-foreground">
+            {project.services.slice(0, 2).join(" · ")}
+          </p>
         </div>
       </Link>
     </motion.article>

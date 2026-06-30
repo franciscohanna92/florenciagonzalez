@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write",
+    "seo:check": "NEXT_PUBLIC_SITE_URL=https://florenciagonzalez.vercel.app next build && node --experimental-strip-types scripts/check-seo.mjs",
     "scrape:portfolio": "node scripts/scrape-myportfolio.mjs"
   },
   "dependencies": {

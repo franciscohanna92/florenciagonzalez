@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import { ContactCTA } from "@/components/contact-cta";
 import { Container } from "@/components/container";
 import { ProjectCard } from "@/components/project-card";
 import { SectionHeader } from "@/components/section-header";
 import { projects } from "@/data/projects";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Proyectos",
   description:
-    "Portfolio de proyectos residenciales y comerciales, reformas, interiores, mobiliario, visualización 3D y dirección de obra.",
-};
+    "Proyectos de arquitectura residencial y comercial, reformas, interiores, mobiliario y visualización 3D en San Juan y otras ciudades.",
+  path: "/proyectos",
+});
 
 export default function ProyectosPage() {
   return (
@@ -26,7 +27,11 @@ export default function ProyectosPage() {
       <section className="pt-8 pb-16 md:pt-12 md:pb-24">
         <Container className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
+            <ProjectCard
+              headingLevel="h2"
+              key={project.slug}
+              project={project}
+            />
           ))}
         </Container>
       </section>

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact-form";
 import { Container } from "@/components/container";
 import { SectionHeader } from "@/components/section-header";
@@ -7,12 +6,14 @@ import {
   projectTypeOptions,
   siteConfig,
 } from "@/lib/content";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Contacto",
   description:
-    "Contacto para consultas de arquitectura, interiores, reformas, locales comerciales, documentación, visualización 3D y dirección de obra.",
-};
+    "Contactá a Florencia González por proyectos de arquitectura, interiores, reformas, locales, visualización 3D y dirección de obra en San Juan.",
+  path: "/contacto",
+});
 
 export default function ContactoPage() {
   return (
@@ -28,6 +29,12 @@ export default function ContactoPage() {
         />
 
         <dl className="mt-10 flex flex-col gap-4 border-border border-t pt-6 text-sm">
+          <div>
+            <dt className="font-semibold text-foreground">Ubicación</dt>
+            <dd className="mt-1 text-muted-foreground">
+              {siteConfig.location}. {siteConfig.remoteWork}.
+            </dd>
+          </div>
           <div>
             <dt className="font-semibold text-foreground">WhatsApp</dt>
             <dd className="mt-1">

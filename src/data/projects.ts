@@ -22,6 +22,7 @@ export type Project = {
   year: string;
   location: string;
   services: string[];
+  summary?: string;
   challenge: string;
   solution: string;
   result: string;
@@ -46,3 +47,28 @@ export function getProjectCover(project: Project) {
 export function getProjectBySlug(slug: string) {
   return projects.find((project) => project.slug === slug);
 }
+
+export function getProjectSummary(project: Project) {
+  return project.summary?.trim() ?? "";
+}
+
+export function getRelatedProjects(project: Project, limit = 3) {
+  return projects
+    .filter(
+      (candidate) =>
+        candidate.slug !== project.slug &&
+        (candidate.category === project.category ||
+          candidate.location === project.location),
+    )
+    .slice(0, limit);
+}
+
+export const projectContentGaps = projects.map((project) => ({
+  slug: project.slug,
+  missing: [
+    ...(getProjectSummary(project) ? [] : ["summary"]),
+    ...(project.challenge.trim() ? [] : ["challenge"]),
+    ...(project.solution.trim() ? [] : ["solution"]),
+    ...(project.result.trim() ? [] : ["result"]),
+  ],
+}));

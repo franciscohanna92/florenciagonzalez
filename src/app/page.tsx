@@ -4,7 +4,6 @@ import {
   HouseLineIcon,
   StorefrontIcon,
 } from "@phosphor-icons/react/ssr";
-import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactCTA } from "@/components/contact-cta";
 import { Container } from "@/components/container";
@@ -21,6 +20,7 @@ import {
 } from "@/data/projects";
 import { processSteps, serviceGroups } from "@/lib/content";
 import { placeholderImage } from "@/lib/placeholders";
+import { createPageMetadata } from "@/lib/seo";
 
 const serviceIcons = [
   HouseLineIcon,
@@ -29,13 +29,13 @@ const serviceIcons = [
   BlueprintIcon,
 ] as const;
 
-export const metadata: Metadata = {
-  title: {
-    absolute: "Florencia González | Arquitectura e interiores",
-  },
+export const metadata = createPageMetadata({
+  title: "Florencia González | Arquitectura e interiores",
   description:
-    "Arquitectura, interiores, visualización 3D, documentación y dirección de obra para viviendas y espacios comerciales.",
-};
+    "Arquitecta en San Juan. Diseño de viviendas, espacios comerciales e interiores, visualización 3D, documentación y dirección de obra.",
+  path: "/",
+  absoluteTitle: true,
+});
 
 export default function Home() {
   const heroCover = heroProject ? getProjectCover(heroProject) : undefined;
@@ -51,7 +51,8 @@ export default function Home() {
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
               Trabajo en proyectos residenciales y comerciales, combinando
               arquitectura, interiorismo, documentación técnica, visualización
-              3D y dirección de obra.
+              3D y dirección de obra desde San Juan, con alcance presencial o a
+              distancia según cada proyecto.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link className={buttonVariants({ size: "lg" })} href="/contacto">
@@ -112,6 +113,16 @@ export default function Home() {
               />
             ))}
           </div>
+          <Link
+            className={buttonVariants({
+              variant: "secondary",
+              size: "lg",
+              className: "mt-10 max-w-max",
+            })}
+            href="/servicios"
+          >
+            Conocé todos los servicios
+          </Link>
         </Container>
       </section>
 
@@ -136,7 +147,11 @@ export default function Home() {
           </div>
           <div className="mt-12 grid gap-10 md:grid-cols-2">
             {featuredProjects.map((project) => (
-              <ProjectCard key={project.slug} project={project} />
+              <ProjectCard
+                key={project.slug}
+                project={project}
+                sizes="(min-width: 768px) 50vw, 100vw"
+              />
             ))}
           </div>
         </Container>
@@ -158,6 +173,16 @@ export default function Home() {
                 title={step.title}
               />
             ))}
+            <Link
+              className={buttonVariants({
+                variant: "secondary",
+                size: "lg",
+                className: "max-w-max",
+              })}
+              href="/como-trabajo"
+            >
+              Conocé todas las etapas
+            </Link>
           </div>
         </Container>
       </section>
@@ -189,6 +214,16 @@ export default function Home() {
                 atención al detalle.
               </p>
             </div>
+            <Link
+              className={buttonVariants({
+                variant: "secondary",
+                size: "lg",
+                className: "mt-8 max-w-max",
+              })}
+              href="/sobre-mi"
+            >
+              Más sobre mí
+            </Link>
           </div>
         </Container>
       </section>

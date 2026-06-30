@@ -9,6 +9,9 @@ import {
 import Script from "next/script";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { JsonLd } from "@/components/json-ld";
+import { siteConfig } from "@/lib/content";
+import { absoluteUrl, getSiteJsonLd, siteUrl } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
@@ -37,20 +40,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ??
-      (process.env.VERCEL_PROJECT_PRODUCTION_URL
-        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-        : process.env.VERCEL_URL
-          ? `https://${process.env.VERCEL_URL}`
-          : "http://localhost:3000"),
-  ),
+  metadataBase: siteUrl,
   title: {
     default: "Florencia González | Arquitectura e interiores",
     template: "%s | Florencia González",
   },
   description:
-    "Arquitectura, interiores, visualización 3D, documentación y dirección de obra para viviendas y espacios comerciales.",
+    "Arquitecta en San Juan. Proyectos residenciales y comerciales, interiores, visualización 3D, documentación y dirección de obra.",
+  alternates: { canonical: absoluteUrl() },
+  openGraph: {
+    title: "Florencia González | Arquitectura e interiores",
+    description:
+      "Arquitecta en San Juan. Proyectos residenciales y comerciales, interiores, visualización 3D, documentación y dirección de obra.",
+    locale: "es_AR",
+    siteName: siteConfig.name,
+    type: "website",
+    url: absoluteUrl(),
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Florencia González | Arquitectura e interiores",
+    description:
+      "Arquitecta en San Juan. Proyectos residenciales y comerciales, interiores, visualización 3D, documentación y dirección de obra.",
+  },
 };
 
 export default function RootLayout({
@@ -72,6 +84,7 @@ export default function RootLayout({
       )}
     >
       <body className="flex min-h-full flex-col">
+        <JsonLd data={getSiteJsonLd()} />
         <Header />
         <main className="flex-1 pt-16">{children}</main>
         <Footer />

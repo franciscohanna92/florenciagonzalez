@@ -1,12 +1,30 @@
-import { ArrowLeftIcon } from "@phosphor-icons/react/ssr";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ContactCTA } from "@/components/contact-cta";
 import { Container } from "@/components/container";
+import { JsonLd } from "@/components/json-ld";
+import { ProjectCard } from "@/components/project-card";
 import { ProjectGallery } from "@/components/project-gallery";
 import { ProjectMeta } from "@/components/project-meta";
-import { getProjectBySlug, projects } from "@/data/projects";
+import { SectionHeader } from "@/components/section-header";
+import { Badge } from "@/components/ui/badge";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
+import {
+  getProjectBySlug,
+  getProjectCover,
+  getProjectSummary,
+  getRelatedProjects,
+  projects,
+} from "@/data/projects";
+import { absoluteUrl, createPageMetadata } from "@/lib/seo";
 
 type ProjectPageProps = {
   params: Promise<{ slug: string }>;
@@ -31,22 +49,16 @@ export async function generateMetadata({
   }
 
   const title = `${project.title} | Proyectos`;
-  const description = `${project.title}, proyecto de ${project.category.toLowerCase()} en ${project.location}.`;
+  const description =
+    getProjectSummary(project) ||
+    `${project.title}: proyecto de ${project.category.toLowerCase()} en ${project.location}, con servicios de ${project.services.join(", ").toLowerCase()}.`;
 
-  return {
+  return createPageMetadata({
     title,
     description,
-    openGraph: {
-      title,
-      description,
-      type: "article",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-  };
+    path: `/proyectos/${project.slug}`,
+    type: "article",
+  });
 }
 
 export default async function ProjectDetailPage({ params }: ProjectPageProps) {
@@ -57,27 +69,104 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
     notFound();
   }
 
+  const summary = getProjectSummary(project);
+  const relatedProjects = getRelatedProjects(project);
+  const cover = getProjectCover(project);
+
   const editorialSections = [
     ["Necesidad inicial", project.challenge],
     ["Solución propuesta", project.solution],
     ["Resultado / estado actual", project.result],
   ].filter(([, text]) => text.trim());
 
+  const projectId = absoluteUrl(`/proyectos/${project.slug}#proyecto`);
+  const breadcrumbId = absoluteUrl(`/proyectos/${project.slug}#migas-de-pan`);
+  const projectJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "@id": projectId,
+        url: absoluteUrl(`/proyectos/${project.slug}`),
+        name: project.title,
+        ...(summary ? { description: summary } : {}),
+        creator: { "@id": absoluteUrl("/#florencia-gonzalez") },
+        dateCreated: project.year,
+        genre: project.category,
+        keywords: project.services,
+        contentLocation: {
+          "@type": "Place",
+          name: project.location,
+        },
+        ...(cover ? { image: absoluteUrl(cover.src) } : {}),
+        breadcrumb: { "@id": breadcrumbId },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Proyectos",
+            item: absoluteUrl("/proyectos"),
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: project.title,
+            item: absoluteUrl(`/proyectos/${project.slug}`),
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={projectJsonLd} />
       <Container as="section" className="flex flex-col py-12 md:py-20">
-        <Link
-          className="inline-flex w-fit items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-          href="/proyectos"
-        >
-          <ArrowLeftIcon aria-hidden="true" className="size-4 shrink-0" />
-          Proyectos
-        </Link>
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink render={<Link href="/proyectos" />}>
+                Proyectos
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>{project.title}</BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <h1 className="mt-8 max-w-4xl font-heading text-5xl leading-[1.02] text-foreground sm:text-6xl lg:text-7xl">
           {project.title}
         </h1>
+        {summary ? (
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
+            {summary}
+          </p>
+        ) : null}
         <div className="mt-10">
           <ProjectMeta includeLocation project={project} />
+        </div>
+        <div className="mt-8">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-foreground">
+            Servicios realizados
+          </h2>
+          <ul className="mt-3 flex flex-wrap gap-3">
+            {project.services.map((service) => (
+              <li key={service}>
+                <Badge variant="secondary">{service}</Badge>
+              </li>
+            ))}
+          </ul>
+          <Link
+            className="mt-5 inline-flex text-sm font-medium text-primary underline-offset-4 hover:underline"
+            href="/servicios"
+          >
+            Conocé los servicios de arquitectura y diseño
+          </Link>
         </div>
       </Container>
 
@@ -99,8 +188,28 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
       ) : null}
 
       <Container as="section" className="py-8 md:py-8">
+        <h2 className="sr-only">Galería de {project.title}</h2>
         <ProjectGallery images={project.images} />
       </Container>
+
+      {relatedProjects.length > 0 ? (
+        <section className="bg-muted py-16 md:py-24">
+          <Container>
+            <SectionHeader
+              intro="Otros trabajos con una escala, categoría o contexto relacionado."
+              title="Proyectos relacionados"
+            />
+            <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {relatedProjects.map((relatedProject) => (
+                <ProjectCard
+                  key={relatedProject.slug}
+                  project={relatedProject}
+                />
+              ))}
+            </div>
+          </Container>
+        </section>
+      ) : null}
 
       <ContactCTA title="¿Tenés un proyecto parecido?" />
     </>

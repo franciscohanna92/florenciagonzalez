@@ -6,6 +6,7 @@ type ServiceCardProps = {
   title: string;
   text: string;
   items?: string[];
+  headingLevel?: "h2" | "h3";
 };
 
 export function ServiceCard({
@@ -13,6 +14,7 @@ export function ServiceCard({
   title,
   text,
   items,
+  headingLevel: Heading = "h3",
 }: ServiceCardProps) {
   return (
     <article className="border-border border-t pt-6">
@@ -21,9 +23,9 @@ export function ServiceCard({
         className="size-7 text-highlight"
         weight="light"
       />
-      <h3 className="mt-4 font-heading text-3xl leading-tight text-foreground">
+      <Heading className="mt-4 font-heading text-3xl leading-tight text-foreground">
         {title}
-      </h3>
+      </Heading>
       <p className="mt-4 text-sm leading-6 text-muted-foreground">{text}</p>
       {items ? (
         <ul className="mt-5 flex flex-wrap gap-2">

@@ -9,10 +9,14 @@ export const siteConfig = {
   emailHref: "mailto:gonzalez.florencialuz@gmail.com",
   instagram: "@florencial.arq",
   instagramHref: "https://www.instagram.com/florencial.arq",
+  behanceHref: "https://www.behance.net/florencia1112",
 };
 
 export const navItems = [
   { label: "Proyectos", href: "/proyectos" },
+  { label: "Servicios", href: "/servicios" },
+  { label: "Cómo trabajo", href: "/como-trabajo" },
+  { label: "Sobre mí", href: "/sobre-mi" },
   { label: "Contacto", href: "/contacto" },
 ];
 
