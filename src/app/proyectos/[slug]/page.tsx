@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from "@phosphor-icons/react/ssr";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -17,6 +18,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { buttonVariants } from "@/components/ui/button";
 import {
   getProjectBySlug,
   getProjectCover,
@@ -125,7 +127,10 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
   return (
     <>
       <JsonLd data={projectJsonLd} />
-      <Container as="section" className="flex flex-col py-12 md:py-20">
+      <Container
+        as="section"
+        className="flex flex-col pt-12 pb-4 md:pt-20 md:pb-6"
+      >
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
@@ -151,7 +156,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
           <ProjectMeta includeLocation project={project} />
         </div>
         <div className="mt-8">
-          <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-foreground">
+          <h2 className="text-sm font-semibold text-foreground">
             Servicios realizados
           </h2>
           <ul className="mt-3 flex flex-wrap gap-3">
@@ -162,10 +167,11 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
             ))}
           </ul>
           <Link
-            className="mt-5 inline-flex text-sm font-medium text-primary underline-offset-4 hover:underline"
+            className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-primary underline-offset-4 hover:underline"
             href="/servicios"
           >
-            Conocé los servicios de arquitectura y diseño
+            Ver servicios
+            <ArrowRightIcon aria-hidden="true" className="size-4" />
           </Link>
         </div>
       </Container>
@@ -195,10 +201,22 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
       {relatedProjects.length > 0 ? (
         <section className="bg-muted py-16 md:py-24">
           <Container>
-            <SectionHeader
-              intro="Otros trabajos con una escala, categoría o contexto relacionado."
-              title="Proyectos relacionados"
-            />
+            <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+              <SectionHeader
+                intro="Otros trabajos con una escala, categoría o contexto relacionado."
+                title="Proyectos relacionados"
+              />
+              <Link
+                className={buttonVariants({
+                  variant: "secondary",
+                  size: "lg",
+                  className: "max-w-max",
+                })}
+                href="/proyectos"
+              >
+                Ver todos
+              </Link>
+            </div>
             <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {relatedProjects.map((relatedProject) => (
                 <ProjectCard

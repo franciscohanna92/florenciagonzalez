@@ -41,7 +41,7 @@ export default function ServiciosPage() {
         />
       </Container>
 
-      <section className="border-border border-y bg-muted py-16 md:py-24">
+      <section className="border-border border-b py-16 md:py-24">
         <Container className="grid gap-12 md:grid-cols-2">
           {serviceGroups.map((service, index) => (
             <ServiceCard

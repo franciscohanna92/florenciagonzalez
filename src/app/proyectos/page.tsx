@@ -15,7 +15,7 @@ export const metadata = createPageMetadata({
 export default function ProyectosPage() {
   return (
     <>
-      <Container as="section" className="py-12 md:py-20">
+      <Container as="section" className="pt-12 pb-6 md:pt-20 md:pb-8">
         <SectionHeader
           emphasized
           intro="Cada proyecto muestra una forma distinta de resolver necesidades, usos y posibilidades reales. Algunos corresponden a obras finalizadas, otros a propuestas de diseño, visualizaciones 3D o procesos en desarrollo."
