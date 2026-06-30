@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { ImageResponse } from "next/og";
-import { getProjectBySlug, getProjectCover } from "@/data/projects";
+import { getProjectBySlug } from "@/data/projects";
 
 export const alt = "Proyecto de Florencia González — Arquitectura & Diseño";
 export const size = {
@@ -13,16 +13,6 @@ type ProjectOpenGraphImageProps = {
   params: Promise<{ slug: string }>;
 };
 
-function getSiteUrl() {
-  const vercelHost =
-    process.env.VERCEL_URL ?? process.env.VERCEL_PROJECT_PRODUCTION_URL;
-
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    (vercelHost ? `https://${vercelHost}` : "http://localhost:3000")
-  );
-}
-
 export default async function ProjectOpenGraphImage({
   params,
 }: ProjectOpenGraphImageProps) {
@@ -33,48 +23,17 @@ export default async function ProjectOpenGraphImage({
     notFound();
   }
 
-  const cover = getProjectCover(project);
-
-  if (!cover) {
-    notFound();
-  }
-
-  const coverSrc = new URL(cover.src, getSiteUrl()).toString();
-
   return new ImageResponse(
     <div
       style={{
-        background: "#191816",
-        color: "#f7f4ee",
+        background: "#5f6b5b",
+        color: "#fffaf3",
         display: "flex",
         height: "100%",
         position: "relative",
         width: "100%",
       }}
     >
-      {/* biome-ignore lint/performance/noImgElement: ImageResponse requires a native image element. */}
-      <img
-        alt=""
-        height={size.height}
-        src={coverSrc}
-        style={{
-          height: "100%",
-          objectFit: "cover",
-          position: "absolute",
-          width: "100%",
-        }}
-        width={size.width}
-      />
-      <div
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(16, 15, 13, 0.06) 10%, rgba(16, 15, 13, 0.24) 48%, rgba(16, 15, 13, 0.92) 100%)",
-          display: "flex",
-          inset: 0,
-          position: "absolute",
-        }}
-      />
-
       <div
         style={{
           display: "flex",
